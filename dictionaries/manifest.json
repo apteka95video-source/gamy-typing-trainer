@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "snapshotDate": "2026-08-30",
+  "note": "Незмінні знімки джерел. Файли в цьому каталозі не редагуються; будь-яке очищення створює похідні файли в data/derived/.",
+  "datasets": [
+    {
+      "id": "frequencywords-en",
+      "title": "FrequencyWords 2018, англійська, 50 000 слів",
+      "language": "en",
+      "kind": "frequency-list",
+      "origin": "пакет організатора",
+      "source": "https://github.com/hermitdave/FrequencyWords",
+      "revision": "525f9b560de45753a5ea01069454e72e9aa541c6",
+      "license": "MIT",
+      "licenseFile": "en/frequencywords-2018/LICENSE",
+      "usage": "Частота слів англійського курсу та обчислення n-грам.",
+      "files": [
+        {
+          "path": "en/frequencywords-2018/en_50k.txt",
+          "sha256": "5351ff405b1126ef555791dd4d9798a48e3e9a501a9fc481a9da957752cfb458",
+          "bytes": 622749
+        },
+        {
+          "path": "en/frequencywords-2018/LICENSE",
+          "sha256": "e08d916cc953f85f7dfa0df530f6d7931f14ce804d053602662d8649b5fac829",
+          "bytes": 1068
+        }
+      ]
+    },
+    {
+      "id": "hunspell-en",
+      "title": "Hunspell English (SCOWL), пакет wooorm/dictionaries",
+      "language": "en",
+      "kind": "hunspell",
+      "origin": "пакет організатора",
+      "source": "https://github.com/wooorm/dictionaries",
+      "revision": "8cfea406b505e4d7df52d5a19bce525df98c54ab",
+      "license": "MIT AND BSD-подібна (SCOWL)",
+      "licenseFile": "en/hunspell-en/LICENSE",
+      "usage": "Перевірка написання: у вправи потрапляють лише слова частотного списку, які є в цьому словнику.",
+      "files": [
+        {
+          "path": "en/hunspell-en/index.dic",
+          "sha256": "f0b1a234bd178bdd01875b2a392a9647f888b8fe879f79c52aae62c2759b3647",
+          "bytes": 551762
+        },
+        {
+          "path": "en/hunspell-en/index.aff",
+          "sha256": "8ae1f19d4840d957728ad90555d5a8dff6cc5c046279c95ff0c00fc0a0136c7b",
+          "bytes": 3086
+        },
+        {
+          "path": "en/hunspell-en/LICENSE",
+          "sha256": "2a7e8d8ae9e8facc84818546ae2a8d83aec5e9c80a675ff789acd1c338b53b3d",
+          "bytes": 15731
+        },
+        {
+          "path": "en/hunspell-en/PACKAGE-LICENSE-MIT",
+          "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+          "bytes": 1099
+        },
+        {
+          "path": "en/hunspell-en/README.original.md",
+          "sha256": "064712519703612d893383416e7b658943bfd71187824afa71d5bc1bb86273e9",
+          "bytes": 2998
+        }
+      ]
+    },
+    {
+      "id": "frequencywords-uk",
+      "title": "FrequencyWords 2018, українська, 50 000 слів",
+      "language": "uk",
+      "kind": "frequency-list",
+      "origin": "пакет організатора",
+      "source": "https://github.com/hermitdave/FrequencyWords",
+      "revision": "525f9b560de45753a5ea01069454e72e9aa541c6",
+      "license": "MIT",
+      "licenseFile": "uk/frequencywords-2018/LICENSE",
+      "usage": "Частота слів українського курсу та обчислення n-грам.",
+      "files": [
+        {
+          "path": "uk/frequencywords-2018/uk_50k.txt",
+          "sha256": "881686fe66a168b79f6a9ee2f6cbbf944cfb12bfb7040913ef535cb29bd86ec9",
+          "bytes": 887259
+        },
+        {
+          "path": "uk/frequencywords-2018/LICENSE",
+          "sha256": "e08d916cc953f85f7dfa0df530f6d7931f14ce804d053602662d8649b5fac829",
+          "bytes": 1068
+        }
+      ]
+    },
+    {
+      "id": "hunspell-uk",
+      "title": "Hunspell Ukrainian (brown-uk/dict_uk), пакет wooorm/dictionaries",
+      "language": "uk",
+      "kind": "hunspell",
+      "origin": "пакет організатора",
+      "source": "https://github.com/brown-uk/dict_uk",
+      "package": "https://github.com/wooorm/dictionaries",
+      "revision": "8cfea406b505e4d7df52d5a19bce525df98c54ab",
+      "license": "GPL-3.0",
+      "licenseFile": "uk/hunspell-uk/LICENSE",
+      "usage": "Перевірка написання: у вправи потрапляють лише слова частотного списку, які є в цьому словнику. Через це українські похідні дані поширюються під GPL-3.0-or-later.",
+      "files": [
+        {
+          "path": "uk/hunspell-uk/index.dic",
+          "sha256": "48cbe32567a2c3c98f83d437bcd84ad3c11310e9df4d6c15d888b1e67654be31",
+          "bytes": 8493094
+        },
+        {
+          "path": "uk/hunspell-uk/index.aff",
+          "sha256": "4243327a3aa19c6db5a4fb2e0c4e3eba6ad26e7ccb8a3f4e634c28d9a2d18956",
+          "bytes": 203292
+        },
+        {
+          "path": "uk/hunspell-uk/LICENSE",
+          "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+          "bytes": 35142
+        },
+        {
+          "path": "uk/hunspell-uk/PACKAGE-LICENSE-MIT",
+          "sha256": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+          "bytes": 1099
+        },
+        {
+          "path": "uk/hunspell-uk/README.original.md",
+          "sha256": "862769782544f44f01f9f956c2ff2b7228db39df957958424411685061186e5a",
+          "bytes": 2992
+        }
+      ]
+    },
+    {
+      "id": "frequencywords-ru",
+      "title": "FrequencyWords 2018, російська, 50 000 слів",
+      "language": "ru",
+      "kind": "frequency-list",
+      "origin": "додано проєктом",
+      "source": "https://github.com/hermitdave/FrequencyWords",
+      "sourceFile": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/ru/ru_50k.txt",
+      "revision": "525f9b560de45753a5ea01069454e72e9aa541c6",
+      "license": "MIT",
+      "licenseFile": "ru/frequencywords-2018/LICENSE",
+      "usage": "Лише негативний фільтр: за ним з українського списку вилучаються російські слова. У вправи жодне слово звідси не потрапляє.",
+      "files": [
+        {
+          "path": "ru/frequencywords-2018/ru_50k.txt",
+          "sha256": "6095f507cc167488ec66ada5a85ac50433503a08ad24a07c6eabdf54352c4e7f",
+          "bytes": 998861
+        },
+        {
+          "path": "ru/frequencywords-2018/LICENSE",
+          "sha256": "e08d916cc953f85f7dfa0df530f6d7931f14ce804d053602662d8649b5fac829",
+          "bytes": 1068
+        }
+      ]
+    }
+  ]
+}

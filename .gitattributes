@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Сировина словників зберігається побайтно: контрольні суми мають збігатися на будь-якій ОС.
+dictionaries/** -text linguist-vendored
+data/derived/** linguist-generated
+data/curriculum/** linguist-generated
