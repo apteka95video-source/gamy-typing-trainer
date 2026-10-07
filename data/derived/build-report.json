@@ -1,0 +1,113 @@
+{
+  "algorithmVersion": "1.0.0",
+  "languages": {
+    "en": {
+      "license": "MIT",
+      "inputs": {
+        "dictionaries/en/frequencywords-2018/en_50k.txt": "5351ff405b1126ef555791dd4d9798a48e3e9a501a9fc481a9da957752cfb458",
+        "dictionaries/en/hunspell-en/index.aff": "8ae1f19d4840d957728ad90555d5a8dff6cc5c046279c95ff0c00fc0a0136c7b",
+        "dictionaries/en/hunspell-en/index.dic": "f0b1a234bd178bdd01875b2a392a9647f888b8fe879f79c52aae62c2759b3647",
+        "data/filters/blocklist-en.txt": "40bfedbd96055e54a624681dcc6cb38c007537a7387c54fb4921dd855500fe3c",
+        "data/filters/supplement-en.txt": "cb7706a1dba63780a1fbb105e51d181d1308a0d313a467fc929afd8f08f4462e"
+      },
+      "steps": [
+        {
+          "step": "parsed",
+          "description": "рядки «слово кількість»",
+          "records": 50000
+        },
+        {
+          "step": "normalized",
+          "description": "NFC, нижній регістр, апостроф → U+0027, злиття дублікатів",
+          "records": 49999
+        },
+        {
+          "step": "charset",
+          "description": "лише літери мови (abcdefghijklmnopqrstuvwxyz), апостроф всередині слова; довжина 1–16; однолітерні — лише справжні слова; є голосна; немає трьох однакових літер поспіль",
+          "records": 46305
+        },
+        {
+          "step": "spelling",
+          "description": "слово є в Hunspell у нижньому регістрі (відсіює власні назви, помилкові токени, російські слова в українському списку)",
+          "records": 31052
+        },
+        {
+          "step": "content",
+          "description": "список data/filters/blocklist-*.txt і прапорець NOSUGGEST",
+          "records": 30789
+        },
+        {
+          "step": "top",
+          "description": "найчастотніші 12000 слів",
+          "records": 12000
+        },
+        {
+          "step": "supplement",
+          "description": "власний список слів з апострофом і ґ, кожне перевірено за Hunspell; зберігається окремо, без частоти",
+          "records": 34
+        }
+      ],
+      "outputs": {
+        "data/derived/en/words.json": "4576d19d8f5b21ee8e6a0b35338892e884ebe1a39ba6b59b2461caf5fa9fd62f",
+        "data/derived/en/ngrams.json": "79616494e9a7a15e915998fbbeef5fe37d42936ff86f74d8e88c2f66a6b2acde"
+      }
+    },
+    "uk": {
+      "license": "GPL-3.0-or-later",
+      "inputs": {
+        "dictionaries/uk/frequencywords-2018/uk_50k.txt": "881686fe66a168b79f6a9ee2f6cbbf944cfb12bfb7040913ef535cb29bd86ec9",
+        "dictionaries/uk/hunspell-uk/index.aff": "4243327a3aa19c6db5a4fb2e0c4e3eba6ad26e7ccb8a3f4e634c28d9a2d18956",
+        "dictionaries/uk/hunspell-uk/index.dic": "48cbe32567a2c3c98f83d437bcd84ad3c11310e9df4d6c15d888b1e67654be31",
+        "data/filters/blocklist-uk.txt": "22eec30ea8a598c0f933c93b3fc87a37b023217d1c734baf66367132b3d36d6a",
+        "data/filters/supplement-uk.txt": "78c94fb4fa87aba8f9942b67d8dfe006b1fdf36fe5417a33278e9ebe6d7c1d2d",
+        "dictionaries/ru/frequencywords-2018/ru_50k.txt": "6095f507cc167488ec66ada5a85ac50433503a08ad24a07c6eabdf54352c4e7f"
+      },
+      "steps": [
+        {
+          "step": "parsed",
+          "description": "рядки «слово кількість»",
+          "records": 50000
+        },
+        {
+          "step": "decontaminated",
+          "description": "вилучено слова, понад 75% вживань яких пояснюється російськими субтитрами (k = 0.013982); частоту решти зменшено на очікувану російську частку",
+          "records": 37417
+        },
+        {
+          "step": "normalized",
+          "description": "NFC, нижній регістр, апостроф → U+0027, злиття дублікатів",
+          "records": 37417
+        },
+        {
+          "step": "charset",
+          "description": "лише літери мови (абвгґдеєжзиіїйклмнопрстуфхцчшщьюя), апостроф і дефіс всередині слова; довжина 1–16; однолітерні — лише справжні слова; є голосна; немає трьох однакових літер поспіль",
+          "records": 33879
+        },
+        {
+          "step": "spelling",
+          "description": "слово є в Hunspell у нижньому регістрі (відсіює власні назви, помилкові токени, російські слова в українському списку)",
+          "records": 25940
+        },
+        {
+          "step": "content",
+          "description": "список data/filters/blocklist-*.txt і прапорець NOSUGGEST",
+          "records": 25734
+        },
+        {
+          "step": "top",
+          "description": "найчастотніші 12000 слів",
+          "records": 12000
+        },
+        {
+          "step": "supplement",
+          "description": "власний список слів з апострофом і ґ, кожне перевірено за Hunspell; зберігається окремо, без частоти",
+          "records": 70
+        }
+      ],
+      "outputs": {
+        "data/derived/uk/words.json": "245e5f2f24ce60a45660dc5b6baf4cb6b6a5ce46f7bb4c6ca698d15e23b50506",
+        "data/derived/uk/ngrams.json": "b8a9a6520bf4111a8fbe9c4bbb5a502cc743e053a5b551427c4e1cd7f6d51968"
+      }
+    }
+  }
+}

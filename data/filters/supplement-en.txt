@@ -1,0 +1,48 @@
+# Доповнювальний список англійських скорочень з апострофом.
+# Власний список проєкту (MIT). Причина: у частотному списку FrequencyWords скорочення
+# розбито на частини («don» + «'t»). Кожне слово нижче під час збирання перевіряється
+# за Hunspell; слово, якого немає в словнику, зупиняє збирання.
+# Частота цих слів невідома, тому вони зберігаються окремо (поле supplement)
+# і не беруть участі в обчисленні частотності та n-грам.
+
+# apostrophe
+don't
+can't
+it's
+that's
+what's
+let's
+he's
+she's
+there's
+here's
+who's
+you're
+we're
+they're
+you've
+we've
+they've
+you'll
+we'll
+they'll
+he'll
+she'll
+it'll
+didn't
+doesn't
+isn't
+wasn't
+weren't
+aren't
+won't
+wouldn't
+couldn't
+shouldn't
+haven't
+hasn't
+hadn't
+you'd
+we'd
+they'd
+o'clock
