@@ -4,7 +4,7 @@ import { expect, test } from '@playwright/test';
 const STORAGE_KEY = 'gamy.profile.v1';
 
 /** Набирає текст клавіша за клавішею й повертає фактичний час від першої до останньої клавіші. */
-async function typeText(page, text, delay = 45) {
+async function typeText(page, text, delay = 55) {
   const chars = [...text];
   let first = 0;
   let last = 0;
@@ -151,14 +151,14 @@ test('точність нижча за поріг — вправу не зара
   await onboard(page, { lang: 'en', level: 'advanced' });
   const id = 'en-l01-s1-03';
   let text = await startGraded(page, id);
-  await typeText(page, text, 40);
+  await typeText(page, text, 55);
   await expect(page.locator('#verdict')).toContainText('1 з 3');
 
   await page.locator('#next-action').click();
   text = await exerciseText(page);
   for (const ch of text) {
-    await page.waitForTimeout(40);
-    if (ch === 'j') { await page.keyboard.type('k'); await page.waitForTimeout(40); }
+    await page.waitForTimeout(55);
+    if (ch === 'j') { await page.keyboard.type('k'); await page.waitForTimeout(55); }
     await page.keyboard.type(ch);
   }
   await expect(page.locator('#verdict')).toHaveAttribute('data-passed', 'false');
@@ -214,7 +214,7 @@ test('три успішні спроби поспіль відкривають �
 
   let text = await startGraded(page, id);
   for (let i = 1; i <= 3; i += 1) {
-    await typeText(page, text, 35);
+    await typeText(page, text, 55);
     await expect(page.locator('#verdict')).toContainText(`Успішних спроб поспіль: ${i} з 3`);
     if (i < 3) {
       await expect(page.locator('#next-action')).toBeFocused();
@@ -248,7 +248,7 @@ test('тренування показує клавіатуру з підказк
   await expect(page.locator('.kb-key.next')).toHaveCount(1);
   await expect(page.locator('main')).toContainText('Наступна клавіша: «f» — лівий вказівний, домашній ряд.');
   const text = await exerciseText(page);
-  await typeText(page, text, 35);
+  await typeText(page, text, 55);
   await expect(page.locator('#verdict')).toContainText('Результат не збережено');
   const saved = await profile(page);
   expect(saved.history).toHaveLength(0);
@@ -262,7 +262,7 @@ test('українська: гама ФІВА ОЛДЖ, кирилиця наб�
   // Етап 1: гама домашнього ряду.
   let text = await startGraded(page, 'uk-l05-s1-01');
   expect(text.startsWith('фіва олдж фіва олдж ждло авіф')).toBe(true);
-  await typeText(page, text, 40);
+  await typeText(page, text, 55);
   await expect(page.locator('#verdict')).toHaveAttribute('data-passed', 'true');
 
   // Розкладка перевіряється до старту: латинка не починає спробу.
@@ -276,13 +276,13 @@ test('українська: гама ФІВА ОЛДЖ, кирилиця наб�
   expect(text).toMatch(/[ґєїі]/);
   let substitutions = 0;
   for (const ch of text) {
-    await page.waitForTimeout(40);
+    await page.waitForTimeout(55);
     const wrong = { ґ: 'г', і: 'i', ї: 'і', є: 'е' }[ch];
     if (wrong && substitutions < 2) {
       await page.keyboard.type(wrong);
       await expect(page.locator('.type-text .ch.current.error')).toHaveCount(1);
       substitutions += 1;
-      await page.waitForTimeout(40);
+      await page.waitForTimeout(55);
     }
     await page.keyboard.type(ch);
   }
@@ -291,7 +291,7 @@ test('українська: гама ФІВА ОЛДЖ, кирилиця наб�
   // Апостроф: типографський варіант зараховується як той самий знак.
   text = await startGraded(page, 'uk-l22-s2-01');
   expect(text).toContain("'");
-  await typeText(page, text.replaceAll("'", '’'), 40);
+  await typeText(page, text.replaceAll("'", '’'), 55);
   expect((await metrics(page)).errors).toBe(0);
 });
 
@@ -299,6 +299,7 @@ for (const lang of ['en', 'uk']) {
   test(`[${lang}] етап 2: понад 30 слів із DOM складаються лише з відкритих клавіш`, async ({ page }) => {
     await onboard(page, { lang, level: 'advanced' });
     await page.goto('./#/stage/2');
+    await expect(page.locator('main h1')).toHaveText('Етап 2 · Слова з вивчених клавіш');
     const lessons = await page.locator('section.lesson').evaluateAll((sections) => sections.slice(0, 5).map((section) => ({
       opened: section.querySelector('[data-opened]').dataset.opened,
       ids: [...section.querySelectorAll('.ex-item a')].map((a) => a.getAttribute('href').replace('#/ex/', '')),
@@ -326,7 +327,7 @@ for (const lang of ['en', 'uk']) {
     await expect(page.locator('.hero')).toContainText('успішні спроби поспіль з точністю не нижче 97 %');
     const text = await startGraded(page, `${lang}-a01-01`);
     await expect(page.locator('h1')).toContainText('Біграма');
-    await typeText(page, text, 35);
+    await typeText(page, text, 55);
     await expect(page.locator('#verdict')).toHaveAttribute('data-passed', 'true');
     await page.goto('./#/academy');
     await expect(page.locator('.ex-item').first()).toContainText('1 з 3 спроб');
@@ -359,7 +360,7 @@ test('увесь основний шлях проходиться лише з к
   await expect(page.locator('#start-graded')).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#typing-input')).toBeFocused();
-  await typeText(page, await exerciseText(page), 35);
+  await typeText(page, await exerciseText(page), 55);
   await expect(page.locator('#next-action')).toBeFocused();
 
   // Esc виходить із вправи на вступний екран.
@@ -412,7 +413,7 @@ for (const [width, height] of [[1440, 900], [1024, 768], [390, 844]]) {
     // Вправа на цьому розмірі: текст видно повністю, набір працює.
     const text = await startGraded(page, 'uk-l05-s1-01');
     await expect(page.locator('#exercise-text')).toBeInViewport();
-    await typeText(page, text, 30);
+    await typeText(page, text, 55);
     await expect(page.locator('#verdict')).toBeVisible();
   });
 }
@@ -453,10 +454,10 @@ test('prefers-reduced-motion: анімації вимкнено', async ({ page 
 test('діагностика радить рівень і відкриває Академію тим, хто вже набирає', async ({ page }) => {
   await page.goto('./');
   await page.locator('#start-diagnostic').click();
-  await expect(page.locator('h1')).toHaveText('Діагностика рівня');
+  await expect(page.locator('#start-graded')).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#mode-badge')).toHaveText('Діагностика — без підказок');
-  await typeText(page, await exerciseText(page), 30);
+  await typeText(page, await exerciseText(page), 55);
   await expect(page.locator('#diagnostic-advice')).toContainText('Ти вже набираєш упевнено');
   await page.locator('#diagnostic-advice button.primary').click();
   await expect(page.locator('h1')).toHaveText('Етап 3 · Академія: українська мова');
@@ -473,8 +474,9 @@ test('заняття на 15–25 хвилин: розігрів, цільова
   await expect(page.locator('.steps')).toContainText('Справжній текст');
   await page.keyboard.press('Enter');
   await expect(page.locator('.badge.stage')).toContainText('Заняття · крок 1 з 4: Розігрів');
+  await expect(page.locator('#start-graded')).toBeFocused();
   await page.keyboard.press('Enter');
-  await typeText(page, await exerciseText(page), 30);
+  await typeText(page, await exerciseText(page), 55);
   await expect(page.locator('#next-action')).toHaveText('Далі за планом заняття');
   await page.keyboard.press('Enter');
   await expect(page.locator('main')).toContainText('Спроба 2 з 2');
@@ -493,7 +495,7 @@ test('сторінка джерел і ліцензій показує коже�
 test('перемикання мови зберігає окремий прогрес кожного курсу', async ({ page }) => {
   await onboard(page, { lang: 'en' });
   const text = await startGraded(page, 'en-l01-s1-01');
-  await typeText(page, text, 30);
+  await typeText(page, text, 55);
   await page.goto('./');
   await page.locator('#nav button[data-lang="uk"]').click();
   await expect(page.locator('h1')).toHaveText('Гами — тренажер сенсорного набору'); // для української ще не обрано рівень
@@ -534,13 +536,14 @@ test('axe-core: жодних порушень доступності на клю
     await page.keyboard.type('щ');
     await check(`${scheme} тренування`);
     await page.keyboard.press('Escape');
+    await expect(page.locator('#start-graded')).toBeFocused();
     await page.keyboard.press('Enter');
     const text = await exerciseText(page);
     await page.keyboard.type(text[0]);
-    await page.waitForTimeout(40);
+    await page.waitForTimeout(55);
     await page.keyboard.type('щ');
     await check(`${scheme} залік із помилкою`);
-    await typeText(page, text.slice(1), 30);
+    await typeText(page, text.slice(1), 55);
     await expect(page.locator('#verdict')).toBeVisible();
     await check(`${scheme} результат`);
     await page.goto('./#/stats');
@@ -558,8 +561,9 @@ test('після першого завантаження базове навча
   await page.reload();
   await expect(page.locator('h1')).toHaveText('Курс: Українська · ЙЦУКЕН');
   await page.locator('#continue').click();
+  await expect(page.locator('#start-graded')).toBeFocused();
   await page.keyboard.press('Enter');
-  await typeText(page, await exerciseText(page), 30);
+  await typeText(page, await exerciseText(page), 55);
   await expect(page.locator('#verdict')).toHaveAttribute('data-passed', 'true');
   await page.goto('./#/weak');
   await expect(page.locator('h1')).toHaveText('Слабкі місця');

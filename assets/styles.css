@@ -169,7 +169,8 @@ input[type="number"], input[type="range"], select {
 input[type="range"] { padding: 0; width: 220px; }
 input[type="checkbox"], input[type="radio"] { width: 20px; height: 20px; accent-color: var(--primary); }
 label { font-weight: 600; }
-.field { display: grid; gap: 4px; margin-bottom: 16px; }
+.field { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; margin-bottom: 16px; }
+select { width: 100%; max-width: 420px; }
 .field .hint { font-weight: 400; color: var(--muted); font-size: .92rem; }
 .check { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 14px; }
 .check span { display: grid; }

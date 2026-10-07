@@ -657,7 +657,7 @@ export async function settings(app) {
       ]),
       sample,
       select('theme', 'Тема', s.theme, [['auto', 'Як у системі'], ['light', 'Світла'], ['dark', 'Темна']], (value) => update((d) => { d.theme = value; })),
-      select('motion', 'Анімації', s.motion, [['auto', 'Як у системі (враховує «зменшення руху»)'], ['off', 'Вимкнено']], (value) => update((d) => { d.motion = value; })),
+      select('motion', 'Анімації', s.motion, [['auto', 'Як у системі'], ['off', 'Вимкнено']], (value) => update((d) => { d.motion = value; })),
       checkbox('sound', 'Звук помилки', 'Короткий тихий сигнал на хибне натискання. Типово вимкнено.', s.sound, (value) => update((d) => { d.sound = value; })),
     ]),
     h('fieldset', {}, [
