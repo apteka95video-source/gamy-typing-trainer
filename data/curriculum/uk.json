@@ -6,7 +6,7 @@
  "inputs": {
   "data/derived/uk/words.json": "245e5f2f24ce60a45660dc5b6baf4cb6b6a5ce46f7bb4c6ca698d15e23b50506",
   "data/derived/uk/ngrams.json": "b8a9a6520bf4111a8fbe9c4bbb5a502cc743e053a5b551427c4e1cd7f6d51968",
-  "data/texts/uk.json": "1d976d3f599404b6132f7e807ed9fb50557515f1ff50c13c10fdfc6c69ef8df8"
+  "data/texts/uk.json": "8b60d56f13d719e854423838f35d7fd757a6ebe4eda7325864f3f2de38c94d8d"
  },
  "diagnostic": "Пальці завжди повертаються на домашній ряд. Спершу точність, а швидкість прийде сама. Я дивлюся на екран, а не на клавіатуру.",
  "lessons": [

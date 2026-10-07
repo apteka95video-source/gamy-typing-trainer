@@ -6,7 +6,7 @@
  "inputs": {
   "data/derived/en/words.json": "4576d19d8f5b21ee8e6a0b35338892e884ebe1a39ba6b59b2461caf5fa9fd62f",
   "data/derived/en/ngrams.json": "79616494e9a7a15e915998fbbeef5fe37d42936ff86f74d8e88c2f66a6b2acde",
-  "data/texts/en.json": "9a57857f6ed94e1234f0f86e50b55d5941c6e92c4cd07f87ddf315b3bd30c5e5"
+  "data/texts/en.json": "d8bff1cf710a6e89881a0849ee0cdb25ebfd25eea0701b76e4d8dff9a463d28d"
  },
  "diagnostic": "My fingers always return to the home row. Accuracy comes first, and speed will follow. I look at the screen, not at the keyboard.",
  "lessons": [

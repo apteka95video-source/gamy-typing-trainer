@@ -196,7 +196,9 @@ test('вставка тексту й миттєвий набір не зарах
   expect(await page.locator('#typing-input').inputValue()).toBe('');
 
   // 3. Миттєва серія натискань без пауз.
-  await page.keyboard.type(text, { delay: 0 });
+  await page.locator('#typing-input').evaluate((el, value) => {
+    for (const key of value) el.dispatchEvent(new KeyboardEvent('keydown', { key, bubbles: true, cancelable: true }));
+  }, text);
   await expect(page.locator('#verdict')).toHaveAttribute('data-passed', 'false');
   await expect(page.locator('#verdict')).toContainText('швидше, ніж можна набрати руками');
   const saved = await profile(page);
