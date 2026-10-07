@@ -143,7 +143,7 @@ main:focus { outline: none; }
 }
 .lang-switch button[aria-pressed="true"] { background: var(--primary); color: var(--primary-text); }
 
-main.wrap { padding-top: 28px; padding-bottom: 48px; min-height: 60vh; }
+main.wrap { padding-top: 28px; padding-bottom: 48px; min-height: 100vh; }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: .92rem; }
 .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; padding-top: 16px; padding-bottom: 16px; }
 .footer-row p { margin: 0; }
@@ -173,7 +173,7 @@ label { font-weight: 600; }
 .field .hint { font-weight: 400; color: var(--muted); font-size: .92rem; }
 .check { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 14px; }
 .check span { display: grid; }
-fieldset { border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin: 0 0 18px; }
+fieldset { border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin: 0 0 18px; min-width: 0; }
 legend { font-weight: 700; padding: 0 6px; }
 
 /* ---------- Картки й сітки ---------- */
@@ -323,6 +323,11 @@ caption { text-align: left; font-weight: 700; padding-bottom: 6px; }
 
 @media (max-width: 720px) {
   body { font-size: 16px; }
+  .header-row { gap: 6px 12px; }
+  .nav { flex-basis: 100%; gap: 2px 4px; }
+  .nav a { padding: 6px 8px; font-size: .9rem; }
+  .nav .spacer { display: none; }
+  .lang-switch { margin-left: auto; }
   .wrap { padding: 0 14px; }
   h1 { font-size: 1.45rem; }
   .type-panel { padding: 18px 14px; }

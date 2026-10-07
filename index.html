@@ -10,6 +10,20 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="modulepreload" href="src/core/adaptive.js">
+  <link rel="modulepreload" href="src/core/analysis.js">
+  <link rel="modulepreload" href="src/core/config.js">
+  <link rel="modulepreload" href="src/core/engine.js">
+  <link rel="modulepreload" href="src/core/layouts.js">
+  <link rel="modulepreload" href="src/core/metrics.js">
+  <link rel="modulepreload" href="src/core/progress.js">
+  <link rel="modulepreload" href="src/core/rng.js">
+  <link rel="modulepreload" href="src/core/storage.js">
+  <link rel="modulepreload" href="src/core/text.js">
+  <link rel="modulepreload" href="src/ui/dom.js">
+  <link rel="modulepreload" href="src/ui/keyboard.js">
+  <link rel="modulepreload" href="src/ui/trainer.js">
+  <link rel="modulepreload" href="src/ui/views.js">
   <script>
     // Тема застосовується до першого малювання, щоб сторінка не блимала.
     try {
@@ -25,7 +39,7 @@
     <header class="site-header">
       <div class="wrap header-row">
         <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">Г</span><span>Гами</span></a>
-        <nav id="nav" class="nav" aria-label="Основна навігація"></nav>
+        <nav id="nav" class="nav" aria-label="Основна навігація"><a href="#/">Головна</a><a href="#/stage/1">Етап 1 · Гами</a><a href="#/stage/2">Етап 2 · Слова</a><a href="#/academy">Етап 3 · Академія</a><a href="#/session">Заняття</a><a href="#/stats">Статистика</a><a href="#/settings">Налаштування</a><span class="spacer"></span><div class="lang-switch" role="group" aria-label="Мова набору"><button type="button" aria-pressed="true" aria-label="УКР — мова набору українська" data-lang="uk">УКР</button><button type="button" aria-pressed="false" aria-label="ENG — мова набору англійська" data-lang="en">ENG</button></div></nav>
       </div>
     </header>
     <main id="main" class="wrap" tabindex="-1">

@@ -46,7 +46,6 @@ export function trainerView(app, exercise, ctx = {}) {
   const thresholds = thresholdsFor(exercise, settings);
   const record = () => exerciseRecord(profile.progress[lang], exercise.id);
   const pickText = () => exercise.texts[record().variant % exercise.texts.length];
-  let detach = () => {};
 
   const stageBadge = () => h('span', { class: 'badge stage' }, ctx.stageLabel ?? STAGE_NAMES[exercise.stage]);
   const back = () => h('p', { class: 'small' }, h('a', { href: ctx.backHref ?? '#/' }, `← ${ctx.backLabel ?? 'На головну'}`));
@@ -60,7 +59,6 @@ export function trainerView(app, exercise, ctx = {}) {
   // ---------- Вступ ----------
 
   function renderIntro() {
-    detach();
     const rec = record();
     const focus = [...new Set(exercise.focus ?? '')].filter((ch) => keyInfo(ch, lang));
     const opened = exercise.opened ? new Set(exercise.opened) : null;
@@ -112,7 +110,6 @@ export function trainerView(app, exercise, ctx = {}) {
   // ---------- Набір ----------
 
   function renderTyping(graded) {
-    detach();
     const text = pickText();
     const session = new TypingSession(text, { lang, stopOnError: settings.stopOnError });
     const spans = session.chars.map((ch) => h('span', { class: 'ch' }, ch));
@@ -241,7 +238,6 @@ export function trainerView(app, exercise, ctx = {}) {
       drop(event) { event.preventDefault(); reject(); },
     };
     for (const [name, handler] of Object.entries(handlers)) capture.addEventListener(name, handler);
-    detach = () => { detach = () => {}; };
 
     mount(root,
       h('div', { class: 'trainer-head' }, [
@@ -323,7 +319,6 @@ export function trainerView(app, exercise, ctx = {}) {
   }
 
   function renderResult({ session, graded, metrics, verdict, analysis, before, after }) {
-    detach();
     const counted = graded && ctx.graded !== false;
     const streak = isCourse ? after.streak : verdict.passed ? 1 : 0;
     const nextInCourse = isCourse ? app.nextAfter(exercise.id) : null;

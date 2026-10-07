@@ -106,7 +106,12 @@ class App {
   /** Вправа на слабкі місця: задані клавіші/переходи або найслабші за статистикою. */
   async weakDrill({ chars = null, pairs = null } = {}) {
     const { data, course } = await this.curriculum();
-    const opened = openedChars(data, course, this.progress(), this.settings.freeAccess);
+    let opened = openedChars(data, course, this.progress(), this.settings.freeAccess);
+    if (opened.trim() === '') {
+      // Ще жодної гами не зараховано: беремо клавіші уроку, який учень проходить зараз.
+      const current = nextExercise(course, this.progress());
+      opened = current?.opened ?? opened;
+    }
     const spots = weakSpots(this.profile.stats[this.lang], this.lang);
     let focusChars = chars ?? spots.keys.slice(0, 3).map((entry) => entry.ch);
     const focusPairs = pairs ?? spots.transitions.slice(0, 2).map((entry) => entry.pair);
@@ -149,7 +154,7 @@ class App {
       return route.startsWith(href.slice(1));
     };
     const langButton = (lang, label, name) => h('button', {
-      type: 'button', 'aria-pressed': String(this.lang === lang), 'aria-label': `Мова набору: ${name}`, dataset: { lang },
+      type: 'button', 'aria-pressed': String(this.lang === lang), 'aria-label': `${label} — мова набору ${name}`, dataset: { lang },
       onclick: () => this.setLang(lang),
     }, label);
     mount(this.nav,
