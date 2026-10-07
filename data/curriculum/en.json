@@ -1,0 +1,3240 @@
+{
+ "schema": 1,
+ "version": "1.0.0",
+ "language": "en",
+ "layout": "English QWERTY",
+ "inputs": {
+  "data/derived/en/words.json": "4576d19d8f5b21ee8e6a0b35338892e884ebe1a39ba6b59b2461caf5fa9fd62f",
+  "data/derived/en/ngrams.json": "79616494e9a7a15e915998fbbeef5fe37d42936ff86f74d8e88c2f66a6b2acde",
+  "data/texts/en.json": "9a57857f6ed94e1234f0f86e50b55d5941c6e92c4cd07f87ddf315b3bd30c5e5"
+ },
+ "diagnostic": "My fingers always return to the home row. Accuracy comes first, and speed will follow. I look at the screen, not at the keyboard.",
+ "lessons": [
+  {
+   "id": "en-l01",
+   "n": 1,
+   "kind": "keys",
+   "title": "Клавіші «f» і «j»",
+   "newKeys": [
+    "f",
+    "j"
+   ],
+   "opened": " fj",
+   "exercises": [
+    {
+     "id": "en-l01-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «f»",
+     "goal": "лівий вказівний лежить на «f» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "f",
+     "texts": [
+      "fff ff f fff ff f fff ff f fff ff f fff"
+     ]
+    },
+    {
+     "id": "en-l01-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «j»",
+     "goal": "правий вказівний лежить на «j» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "j",
+     "texts": [
+      "jjj jj j jjj jj j jjj jj j jjj jj j jjj"
+     ]
+    },
+    {
+     "id": "en-l01-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«f» і «j» разом",
+     "goal": "Чергування двох нових клавіш: «f» лівий вказівний → «j» правий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "fj",
+     "texts": [
+      "fj fj jf jf ffj jjf fjf jfj fj fj jf jf ffj jjf"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l02",
+   "n": 2,
+   "kind": "keys",
+   "title": "Клавіші «d» і «k»",
+   "newKeys": [
+    "d",
+    "k"
+   ],
+   "opened": " fjdk",
+   "exercises": [
+    {
+     "id": "en-l02-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «d»",
+     "goal": "лівий середній лежить на «d» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "d",
+     "texts": [
+      "ddd dd d ddd dd d ddd dd d ddd dd d ddd"
+     ]
+    },
+    {
+     "id": "en-l02-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «k»",
+     "goal": "правий середній лежить на «k» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "k",
+     "texts": [
+      "kkk kk k kkk kk k kkk kk k kkk kk k kkk"
+     ]
+    },
+    {
+     "id": "en-l02-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«d» і «k» разом",
+     "goal": "Чергування двох нових клавіш: «d» лівий середній → «k» правий середній (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "dk",
+     "texts": [
+      "dk dk kd kd ddk kkd dkd kdk dk dk kd kd ddk kkd"
+     ]
+    },
+    {
+     "id": "en-l02-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «d» і «k»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: kf, df, dk, dj, kd, kj. Це ще не слова, а переходи між клавішами.",
+     "focus": "dk",
+     "texts": [
+      "kf kf df df dk dk dj dj kd kd kj kj kf kf df df dk"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l03",
+   "n": 3,
+   "kind": "keys",
+   "title": "Клавіші «s» і «l»",
+   "newKeys": [
+    "s",
+    "l"
+   ],
+   "opened": " fjdksl",
+   "exercises": [
+    {
+     "id": "en-l03-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «s»",
+     "goal": "лівий безіменний лежить на «s» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "s",
+     "texts": [
+      "sss ss s sss ss s sss ss s sss ss s sss"
+     ]
+    },
+    {
+     "id": "en-l03-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «l»",
+     "goal": "правий безіменний лежить на «l» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "l",
+     "texts": [
+      "lll ll l lll ll l lll ll l lll ll l lll"
+     ]
+    },
+    {
+     "id": "en-l03-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«s» і «l» разом",
+     "goal": "Чергування двох нових клавіш: «s» лівий безіменний → «l» правий безіменний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "sl",
+     "texts": [
+      "sl sl ls ls ssl lls sls lsl sl sl ls ls ssl lls"
+     ]
+    },
+    {
+     "id": "en-l03-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «s» і «l»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: ld, ds, ls, ks, lk, lf, sk, sl. Це ще не слова, а переходи між клавішами.",
+     "focus": "sl",
+     "texts": [
+      "ld ld ds ds ls ls ks ks lk lk lf lf sk sk sl sl ld"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l04",
+   "n": 4,
+   "kind": "keys",
+   "title": "Клавіші «a» і «;»",
+   "newKeys": [
+    "a",
+    ";"
+   ],
+   "opened": " fjdksla;",
+   "exercises": [
+    {
+     "id": "en-l04-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «a»",
+     "goal": "лівий мізинець лежить на «a» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": "a",
+     "texts": [
+      "aaa aa a aaa aa a aaa aa a aaa aa a aaa"
+     ]
+    },
+    {
+     "id": "en-l04-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «;»",
+     "goal": "правий мізинець лежить на «;» постійно: це його домашня клавіша. Натискай і не відривай решту пальців від ряду. Пробіл — великим пальцем.",
+     "focus": ";",
+     "texts": [
+      ";;; ;; ; ;;; ;; ; ;;; ;; ; ;;; ;; ; ;;;"
+     ]
+    },
+    {
+     "id": "en-l04-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«a» і «;» разом",
+     "goal": "Чергування двох нових клавіш: «a» лівий мізинець → «;» правий мізинець (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "a;",
+     "texts": [
+      "a; a; ;a ;a aa; ;;a a;a ;a; a; a; ;a ;a aa; ;;a"
+     ]
+    },
+    {
+     "id": "en-l04-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «a» і «;»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: al, as, ad, la, sa, ak, da, fa. Це ще не слова, а переходи між клавішами.",
+     "focus": "a;",
+     "texts": [
+      "al al as as ad ad la la sa sa ak ak da da fa fa al"
+     ]
+    },
+    {
+     "id": "en-l04-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «a»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «a» — лівий мізинець.",
+     "focus": "a",
+     "texts": [
+      "fall asks alas dad ad dads adds salsa ask sad as all lad add ads",
+      "add lads salad sad lass lad fall ask adds as falls asks dads salsa",
+      "ad salsa ads lad adds lads falls all dads asks sad dad add alas",
+      "all salad lad ads lass dads asks adds as ad fall alas dad falls"
+     ]
+    },
+    {
+     "id": "en-l04-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "alas asks lads add ads falls ask all ad dad lass salad adds dads",
+      "ask lad asks ad as salad add fall lads dad salsa ads dads adds",
+      "salad ad salsa falls fall as lad sad alas lass ask lads all dads",
+      "ask salsa sad salad dad dads add all lad lass asks lads falls"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l05",
+   "n": 5,
+   "kind": "review",
+   "title": "Гами домашнього ряду",
+   "newKeys": [],
+   "opened": " fjdksla;",
+   "exercises": [
+    {
+     "id": "en-l05-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Гама зліва направо і назад",
+     "goal": "Послідовний рух пальців: asdf jkl;, потім у зворотному напрямку ;lkj fdsa. Усі вісім пальців лежать на домашньому ряді.",
+     "focus": "asdfjkl;",
+     "texts": [
+      "asdf jkl; asdf jkl; ;lkj fdsa ;lkj fdsa asdf jkl; asdf"
+     ]
+    },
+    {
+     "id": "en-l05-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Дзеркальні пари: від країв до центру й назад",
+     "goal": "Однойменні пальці обох рук працюють парами: мізинці, безіменні, середні, вказівні — і у зворотному порядку.",
+     "focus": "asdfjkl;",
+     "texts": [
+      "a; sl dk fj fj dk sl a; a; sl dk fj fj dk sl a; a;"
+     ]
+    },
+    {
+     "id": "en-l05-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Чергування лівої та правої руки",
+     "goal": "Кожна пара — одна клавіша лівою рукою, одна правою. Руки натискають по черзі, кисті нерухомі.",
+     "focus": "asdfjkl;",
+     "texts": [
+      "aj sk dl f; ja ks ld ;f aj sk dl f; ja ks ld ;f aj"
+     ]
+    },
+    {
+     "id": "en-l05-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Ізоляція однойменних пальців",
+     "goal": "Рухається лише один палець, решта лежать на своїх клавішах: спершу вказівні, наприкінці мізинці.",
+     "focus": "asdfjkl;",
+     "texts": [
+      "ff jj dd kk ss ll aa ;; fj dk sl a; ff jj dd kk ss"
+     ]
+    },
+    {
+     "id": "en-l05-s1-05",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "rhythm",
+     "title": "Рівний ритм: повільно",
+     "goal": "Набирай рівно, як під метроном, близько 80–110 знаків за хвилину. Залік — за точністю; після спроби побачиш свій темп і нерівномірність ритму.",
+     "focus": "asdfjkl;",
+     "tempoBand": [
+      80,
+      110
+     ],
+     "texts": [
+      "asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl;"
+     ]
+    },
+    {
+     "id": "en-l05-s1-06",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "rhythm",
+     "title": "Рівний ритм: середньо",
+     "goal": "Набирай рівно, як під метроном, близько 110–140 знаків за хвилину. Залік — за точністю; після спроби побачиш свій темп і нерівномірність ритму.",
+     "focus": "asdfjkl;",
+     "tempoBand": [
+      110,
+      140
+     ],
+     "texts": [
+      "fj dk sl a; a; sl dk fj fj dk sl a; a; sl dk fj fj dk sl"
+     ]
+    },
+    {
+     "id": "en-l05-s1-07",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "rhythm",
+     "title": "Рівний ритм: швидше",
+     "goal": "Набирай рівно, як під метроном, близько 140–180 знаків за хвилину. Залік — за точністю; після спроби побачиш свій темп і нерівномірність ритму.",
+     "focus": "asdfjkl;",
+     "tempoBand": [
+      140,
+      180
+     ],
+     "texts": [
+      "asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf jkl; asdf"
+     ]
+    },
+    {
+     "id": "en-l05-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Слова домашнього ряду",
+     "goal": "Перші справжні слова: у них лише клавіші домашнього ряду. Пальці не залишають свого ряду.",
+     "focus": "",
+     "texts": [
+      "lass dads salsa adds salad ad asks ask lad add all alas",
+      "ask sad salsa all falls alas asks lads lad adds dads salad",
+      "salsa as ad dads salad sad ask alas lass fall asks ads",
+      "alas lass asks salad falls lad ask sad dad adds dads all"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l06",
+   "n": 6,
+   "kind": "keys",
+   "title": "Клавіші «g» і «h»",
+   "newKeys": [
+    "g",
+    "h"
+   ],
+   "opened": " fjdksla;gh",
+   "exercises": [
+    {
+     "id": "en-l06-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «g»",
+     "goal": "лівий вказівний: з домашньої «f» на «g» (домашній ряд) і одразу назад на «f».",
+     "focus": "g",
+     "texts": [
+      "fgf fgf ffg ggf fg gf fggf fgf fgf ffg ggf fg"
+     ]
+    },
+    {
+     "id": "en-l06-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «h»",
+     "goal": "правий вказівний: з домашньої «j» на «h» (домашній ряд) і одразу назад на «j».",
+     "focus": "h",
+     "texts": [
+      "jhj jhj jjh hhj jh hj jhhj jhj jhj jjh hhj jh"
+     ]
+    },
+    {
+     "id": "en-l06-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«g» і «h» разом",
+     "goal": "Чергування двох нових клавіш: «g» лівий вказівний → «h» правий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "gh",
+     "texts": [
+      "fgf jhj gh hg fgjh jhfg ghg hgh fgf jhj gh hg fgjh"
+     ]
+    },
+    {
+     "id": "en-l06-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «g» і «h»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: ha, gh, sh, ag, ah, ga, gs, gl. Це ще не слова, а переходи між клавішами.",
+     "focus": "gh",
+     "texts": [
+      "ha ha gh gh sh sh ag ag ah ah ga ga gs gs gl gl ha"
+     ]
+    },
+    {
+     "id": "en-l06-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «g» і «h»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «g» — лівий вказівний, «h» — правий вказівний.",
+     "focus": "gh",
+     "texts": [
+      "slash flag gas flash slag jag hall shall half ash glass gags gall",
+      "jag hag gag slag aah flags gall ha gags shall ash dash gals has",
+      "flash gags hag shag saga gals ha dash slash aah gall shall flags",
+      "glad flash slag ha flag dash ah glass hag aha hash gas gag gala"
+     ]
+    },
+    {
+     "id": "en-l06-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "salad asks aah adds ah add as all salsa gags jag gals ads aha",
+      "aah alas gag dash ask lads shall ash all lad as hash adds flash",
+      "hall ad slash ha adds gala add dad as all alas shag shall flag",
+      "gals sad ash gala lads salsa lass fall gas ah half hag falls ha"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l07",
+   "n": 7,
+   "kind": "keys",
+   "title": "Клавіші «e» і «i»",
+   "newKeys": [
+    "e",
+    "i"
+   ],
+   "opened": " fjdksla;ghei",
+   "exercises": [
+    {
+     "id": "en-l07-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «e»",
+     "goal": "лівий середній: з домашньої «d» на «e» (верхній ряд) і одразу назад на «d».",
+     "focus": "e",
+     "texts": [
+      "ded ded dde eed de ed deed ded ded dde eed de"
+     ]
+    },
+    {
+     "id": "en-l07-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «i»",
+     "goal": "правий середній: з домашньої «k» на «i» (верхній ряд) і одразу назад на «k».",
+     "focus": "i",
+     "texts": [
+      "kik kik kki iik ki ik kiik kik kik kki iik ki"
+     ]
+    },
+    {
+     "id": "en-l07-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«e» і «i» разом",
+     "goal": "Чергування двох нових клавіш: «e» лівий середній → «i» правий середній (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "ei",
+     "texts": [
+      "ded kik ei ie deki kide eie iei ded kik ei ie deki"
+     ]
+    },
+    {
+     "id": "en-l07-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «e» і «i»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: he, hi, is, ea, se, es, le, ed. Це ще не слова, а переходи між клавішами.",
+     "focus": "ei",
+     "texts": [
+      "he he hi hi is is ea ea se se es es le le ed ed he"
+     ]
+    },
+    {
+     "id": "en-l07-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «e» і «i»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «e» — лівий середній, «i» — правий середній.",
+     "focus": "ei",
+     "texts": [
+      "did sell lead he kids she like died side ladies feel kid see asked",
+      "sell sighs deal see did feel dead else if less life is lie hi",
+      "side ladies eh did lead he see kids deal lie else sell safe dead",
+      "age fish ladies high sighs he asked kiss feel else safe die deal"
+     ]
+    },
+    {
+     "id": "en-l07-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "sell ha likes eh lie she ahead half jail as he sighs age shall",
+      "head less died ah high safe glad sake shall see ha side half ask",
+      "likes feel deal lead sake glass field less if ah head shall eh",
+      "died shall as lead fish fell kids did kiss ha ladies kid his sighs"
+     ]
+    },
+    {
+     "id": "en-l07-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "healed skills shields diesel ideals assess disease alleged allies",
+      "diesel hassle shakes giggles hisses illegal fields shades shields",
+      "fields healed kisses sailed eagles fellas allied allies ideals failed",
+      "shield glasses filled allies kissed diseases dislike sleigh headed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l08",
+   "n": 8,
+   "kind": "keys",
+   "title": "Клавіші «r» і «u»",
+   "newKeys": [
+    "r",
+    "u"
+   ],
+   "opened": " fjdksla;gheiru",
+   "exercises": [
+    {
+     "id": "en-l08-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «r»",
+     "goal": "лівий вказівний: з домашньої «f» на «r» (верхній ряд) і одразу назад на «f».",
+     "focus": "r",
+     "texts": [
+      "frf frf ffr rrf fr rf frrf frf frf ffr rrf fr"
+     ]
+    },
+    {
+     "id": "en-l08-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «u»",
+     "goal": "правий вказівний: з домашньої «j» на «u» (верхній ряд) і одразу назад на «j».",
+     "focus": "u",
+     "texts": [
+      "juj juj jju uuj ju uj juuj juj juj jju uuj ju"
+     ]
+    },
+    {
+     "id": "en-l08-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«r» і «u» разом",
+     "goal": "Чергування двох нових клавіш: «r» лівий вказівний → «u» правий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "ru",
+     "texts": [
+      "frf juj ru ur frju jufr rur uru frf juj ru ur frju"
+     ]
+    },
+    {
+     "id": "en-l08-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «r» і «u»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: er, re, ar, ur, us, ri, ra, rs. Це ще не слова, а переходи між клавішами.",
+     "focus": "ru",
+     "texts": [
+      "er er re re ar ar ur ur us us ri ri ra ra rs rs er"
+     ]
+    },
+    {
+     "id": "en-l08-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «r» і «u»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «r» — лівий вказівний, «u» — правий вказівний.",
+     "focus": "ru",
+     "texts": [
+      "real far fire use afraid guess uh here agree air heard girl sure",
+      "fire free hair dear full read used dude her afraid far girl heard",
+      "far real girls dear red read hard full dude heard agree sir hair",
+      "dude are girl hear agree uh free sure real sir read use ride us"
+     ]
+    },
+    {
+     "id": "en-l08-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "he far died like said side did had real else huh is kids ask girl",
+      "deal full all see asked shall sure said kid ah high she like dad",
+      "dead used dear see are real his did said full asked shall he her",
+      "hear like sir head high kid real sure see far us guess else life"
+     ]
+    },
+    {
+     "id": "en-l08-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "useful federal harder guards affair disease regular figured failed",
+      "filled laughs address desire fellas useless failed glasses illegal",
+      "suffer issues figured release agreed useful sheriff leader released",
+      "garage harder series illegal refuse kissed issues dressed useful affair"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l09",
+   "n": 9,
+   "kind": "keys",
+   "title": "Клавіші «t» і «y»",
+   "newKeys": [
+    "t",
+    "y"
+   ],
+   "opened": " fjdksla;gheiruty",
+   "exercises": [
+    {
+     "id": "en-l09-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «t»",
+     "goal": "лівий вказівний: з домашньої «f» на «t» (верхній ряд) і одразу назад на «f».",
+     "focus": "t",
+     "texts": [
+      "ftf ftf fft ttf ft tf fttf ftf ftf fft ttf ft"
+     ]
+    },
+    {
+     "id": "en-l09-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «y»",
+     "goal": "правий вказівний: з домашньої «j» на «y» (верхній ряд) і одразу назад на «j».",
+     "focus": "y",
+     "texts": [
+      "jyj jyj jjy yyj jy yj jyyj jyj jyj jjy yyj jy"
+     ]
+    },
+    {
+     "id": "en-l09-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«t» і «y» разом",
+     "goal": "Чергування двох нових клавіш: «t» лівий вказівний → «y» правий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "ty",
+     "texts": [
+      "ftf jyj ty yt ftjy jyft tyt yty ftf jyj ty yt ftjy"
+     ]
+    },
+    {
+     "id": "en-l09-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «t» і «y»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: th, at, it, st, te, ut, et, ti. Це ще не слова, а переходи між клавішами.",
+     "focus": "ty",
+     "texts": [
+      "th th at at it it st st te te ut ut et et ti ti th"
+     ]
+    },
+    {
+     "id": "en-l09-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «t» і «y»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «t» — лівий вказівний, «y» — правий вказівний.",
+     "focus": "ty",
+     "texts": [
+      "guy their right really three at father tell still they great hey",
+      "years try just after tell that let these last really yes say yeah",
+      "the still their take at left get last try talk it little day great",
+      "just left great tell after there their first at take still guy"
+     ]
+    },
+    {
+     "id": "en-l09-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "hear these at see this her is it left life are uh father there",
+      "all here still three this if talk is the last he as hey yeah get",
+      "stay father get his her dad he still tell this little had sir",
+      "right his has girl us the see yeah they hear stay had that their"
+     ]
+    },
+    {
+     "id": "en-l09-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "figured talked either lights health leader rather yesterday ladies",
+      "talked future rather taught usually already father straight hardly",
+      "arrest faster figured herself leader hardly future straight laughs",
+      "figure flight really figured leader alright agreed usually already"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l10",
+   "n": 10,
+   "kind": "keys",
+   "title": "Клавіші «o» і «w»",
+   "newKeys": [
+    "o",
+    "w"
+   ],
+   "opened": " fjdksla;gheirutyow",
+   "exercises": [
+    {
+     "id": "en-l10-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «o»",
+     "goal": "правий безіменний: з домашньої «l» на «o» (верхній ряд) і одразу назад на «l».",
+     "focus": "o",
+     "texts": [
+      "lol lol llo ool lo ol lool lol lol llo ool lo"
+     ]
+    },
+    {
+     "id": "en-l10-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «w»",
+     "goal": "лівий безіменний: з домашньої «s» на «w» (верхній ряд) і одразу назад на «s».",
+     "focus": "w",
+     "texts": [
+      "sws sws ssw wws sw ws swws sws sws ssw wws sw"
+     ]
+    },
+    {
+     "id": "en-l10-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«o» і «w» разом",
+     "goal": "Чергування двох нових клавіш: «o» правий безіменний → «w» лівий безіменний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "ow",
+     "texts": [
+      "lol sws ow wo losw swlo owo wow lol sws ow wo losw"
+     ]
+    },
+    {
+     "id": "en-l10-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «o» і «w»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: ou, yo, to, or, wh, ow, we, ho. Це ще не слова, а переходи між клавішами.",
+     "focus": "ow",
+     "texts": [
+      "ou ou yo yo to to or or wh wh ow ow we we ho ho ou"
+     ]
+    },
+    {
+     "id": "en-l10-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «o» і «w»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «o» — правий безіменний, «w» — лівий безіменний.",
+     "focus": "ow",
+     "texts": [
+      "oh out god our for sorry who okay way was look do where how will",
+      "oh work would we you god good sorry where why what was too do",
+      "two oh with who you our what got work god or should off how to",
+      "how do would look got why out was okay work off go who our with"
+     ]
+    },
+    {
+     "id": "en-l10-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "they why to he okay like are her really all is see of for so yeah",
+      "take like just who what had tell will there do out with we this",
+      "where what here as like he would out if were did she this to your",
+      "were where is had would let she will why go this our with really"
+     ]
+    },
+    {
+     "id": "en-l10-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "talked thought either worried yourself through together little totally",
+      "street rather afraid started alright forget either seriously letter",
+      "through always figure ladies future really forgot alright laughs sister",
+      "street others worried daughter without forget future alright figure"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l11",
+   "n": 11,
+   "kind": "keys",
+   "title": "Клавіші «p» і «q»",
+   "newKeys": [
+    "p",
+    "q"
+   ],
+   "opened": " fjdksla;gheirutyowpq",
+   "exercises": [
+    {
+     "id": "en-l11-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «p»",
+     "goal": "правий мізинець: з домашньої «;» на «p» (верхній ряд) і одразу назад на «;».",
+     "focus": "p",
+     "texts": [
+      ";p; ;p; ;;p pp; ;p p; ;pp; ;p; ;p; ;;p pp; ;p"
+     ]
+    },
+    {
+     "id": "en-l11-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «q»",
+     "goal": "лівий мізинець: з домашньої «a» на «q» (верхній ряд) і одразу назад на «a».",
+     "focus": "q",
+     "texts": [
+      "aqa aqa aaq qqa aq qa aqqa aqa aqa aaq qqa aq"
+     ]
+    },
+    {
+     "id": "en-l11-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«p» і «q» разом",
+     "goal": "Чергування двох нових клавіш: «p» правий мізинець → «q» лівий мізинець (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "pq",
+     "texts": [
+      ";p; aqa pq qp ;paq aq;p pqp qpq ;p; aqa pq qp ;paq"
+     ]
+    },
+    {
+     "id": "en-l11-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «p» і «q»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: pe, pl, pr, up, op, pa, po, ap. Це ще не слова, а переходи між клавішами.",
+     "focus": "pq",
+     "texts": [
+      "pe pe pl pl pr pr up up op op pa pa po po ap ap pe"
+     ]
+    },
+    {
+     "id": "en-l11-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «p» і «q»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «p» — правий мізинець, «q» — лівий мізинець.",
+     "focus": "pq",
+     "texts": [
+      "up stupid pass pay step put ship hope past please play pull quiet",
+      "report sleep help suppose quiet kept happy hospital ship past",
+      "people sleep past stop poor pass please hope put help pull ship",
+      "play put part quiet pay speak please happy hospital kept up past"
+     ]
+    },
+    {
+     "id": "en-l11-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "up that the he at was here yeah look yes do as really who will",
+      "his us look she yeah were do as you out or okay go her for they",
+      "were at how right okay where for us see out they our why good",
+      "she right had her see you your do why for how of oh yeah that"
+     ]
+    },
+    {
+     "id": "en-l11-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "worked really yourself afraid started thought perhaps forget through",
+      "perhaps hospital outside forget figure thought father really already",
+      "yesterday afraid forget worked figure thought pretty either people",
+      "really always worked people either future street already through follow"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l12",
+   "n": 12,
+   "kind": "keys",
+   "title": "Клавіші «n» і «b»",
+   "newKeys": [
+    "n",
+    "b"
+   ],
+   "opened": " fjdksla;gheirutyowpqnb",
+   "exercises": [
+    {
+     "id": "en-l12-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «n»",
+     "goal": "правий вказівний: з домашньої «j» на «n» (нижній ряд) і одразу назад на «j».",
+     "focus": "n",
+     "texts": [
+      "jnj jnj jjn nnj jn nj jnnj jnj jnj jjn nnj jn"
+     ]
+    },
+    {
+     "id": "en-l12-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «b»",
+     "goal": "лівий вказівний: з домашньої «f» на «b» (нижній ряд) і одразу назад на «f».",
+     "focus": "b",
+     "texts": [
+      "fbf fbf ffb bbf fb bf fbbf fbf fbf ffb bbf fb"
+     ]
+    },
+    {
+     "id": "en-l12-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«n» і «b» разом",
+     "goal": "Чергування двох нових клавіш: «n» правий вказівний → «b» лівий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "nb",
+     "texts": [
+      "jnj fbf nb bn jnfb fbjn nbn bnb jnj fbf nb bn jnfb"
+     ]
+    },
+    {
+     "id": "en-l12-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «n» і «b»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: in, an, ng, on, nd, no, en, ne. Це ще не слова, а переходи між клавішами.",
+     "focus": "nb",
+     "texts": [
+      "in in an an ng ng on on nd nd no no en en ne ne in"
+     ]
+    },
+    {
+     "id": "en-l12-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «n» і «b»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «n» — правий вказівний, «b» — лівий вказівний.",
+     "focus": "nb",
+     "texts": [
+      "in better night again going then thing be doing one down no before",
+      "only on going no been in into night before by think and one when",
+      "better going thank know nothing but find than again down only",
+      "on better than need in down any no think now not again going but"
+     ]
+    },
+    {
+     "id": "en-l12-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "if it want one out was let will oh good at are all go why do no",
+      "we right who be on up out let what like oh get here if the he",
+      "good so of all got is like what and this who he oh in why go it",
+      "get is be they at just we this why go well about now it no yeah"
+     ]
+    },
+    {
+     "id": "en-l12-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "brother thanks probably getting anyone without people nothing through",
+      "through enough brother already nothing tonight business little anyone",
+      "father through people friends together yourself tonight wanted already",
+      "listen people together yourself saying another business through beautiful"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l13",
+   "n": 13,
+   "kind": "keys",
+   "title": "Клавіші «m» і «v»",
+   "newKeys": [
+    "m",
+    "v"
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmv",
+   "exercises": [
+    {
+     "id": "en-l13-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «m»",
+     "goal": "правий вказівний: з домашньої «j» на «m» (нижній ряд) і одразу назад на «j».",
+     "focus": "m",
+     "texts": [
+      "jmj jmj jjm mmj jm mj jmmj jmj jmj jjm mmj jm"
+     ]
+    },
+    {
+     "id": "en-l13-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «v»",
+     "goal": "лівий вказівний: з домашньої «f» на «v» (нижній ряд) і одразу назад на «f».",
+     "focus": "v",
+     "texts": [
+      "fvf fvf ffv vvf fv vf fvvf fvf fvf ffv vvf fv"
+     ]
+    },
+    {
+     "id": "en-l13-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«m» і «v» разом",
+     "goal": "Чергування двох нових клавіш: «m» правий вказівний → «v» лівий вказівний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "mv",
+     "texts": [
+      "jmj fvf mv vm jmfv fvjm mvm vmv jmj fvf mv vm jmfv"
+     ]
+    },
+    {
+     "id": "en-l13-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «m» і «v»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: me, ve, om, ma, av, im, mo, my. Це ще не слова, а переходи між клавішами.",
+     "focus": "mv",
+     "texts": [
+      "me me ve ve om om ma ma av av im im mo mo my my me"
+     ]
+    },
+    {
+     "id": "en-l13-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «m» і «v»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «m» — правий вказівний, «v» — лівий вказівний.",
+     "focus": "mv",
+     "texts": [
+      "name love remember make home something some them my everything",
+      "make remember am every leave never ever must believe my something",
+      "him mean man every very more home remember money love ever over",
+      "my me even them home everything believe someone maybe money him"
+     ]
+    },
+    {
+     "id": "en-l13-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "be this right will one well we your he think for with up him out",
+      "up there her got be your how not get in on as it him now she that",
+      "if so want with good but it be not what out just think in him",
+      "about we her like in as know get the think so good and one well"
+     ]
+    },
+    {
+     "id": "en-l13-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "enough always around before things thought really morning happened",
+      "before nothing morning around father wanted everything thanks something",
+      "mother nothing yourself something brother family little another together",
+      "through thanks better listen everything around things thought brother"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l14",
+   "n": 14,
+   "kind": "keys",
+   "title": "Клавіші «c» і «,»",
+   "newKeys": [
+    "c",
+    ","
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,",
+   "exercises": [
+    {
+     "id": "en-l14-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «c»",
+     "goal": "лівий середній: з домашньої «d» на «c» (нижній ряд) і одразу назад на «d».",
+     "focus": "c",
+     "texts": [
+      "dcd dcd ddc ccd dc cd dccd dcd dcd ddc ccd dc"
+     ]
+    },
+    {
+     "id": "en-l14-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «,»",
+     "goal": "правий середній: з домашньої «k» на «,» (нижній ряд) і одразу назад на «k».",
+     "focus": ",",
+     "texts": [
+      "k,k k,k kk, ,,k k, ,k k,,k k,k k,k kk, ,,k k,"
+     ]
+    },
+    {
+     "id": "en-l14-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«c» і «,» разом",
+     "goal": "Чергування двох нових клавіш: «c» лівий середній → «,» правий середній (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "c,",
+     "texts": [
+      "dcd k,k c, ,c dck, k,dc c,c ,c, dcd k,k c, ,c dck,"
+     ]
+    },
+    {
+     "id": "en-l14-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «c» і «,»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: co, ca, ch, ce, ac, ic, ck, ec. Це ще не слова, а переходи між клавішами.",
+     "focus": "c,",
+     "texts": [
+      "co co ca ca ch ch ce ce ac ac ic ic ck ck ec ec co"
+     ]
+    },
+    {
+     "id": "en-l14-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «c»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «c» — лівий середній.",
+     "focus": "c",
+     "texts": [
+      "call case check care could which called come can doctor because",
+      "music since care much call school second which check came once",
+      "since watch case change second school care coming much chance",
+      "much coming close face car case music watch doctor care chance"
+     ]
+    },
+    {
+     "id": "en-l14-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "see out well that come for you get all about as want and one here",
+      "what my have go come him yeah know it me her right to that not",
+      "do what but be they will up there if one about out for with got",
+      "come she about see yeah there have him was well will can with"
+     ]
+    },
+    {
+     "id": "en-l14-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "thought thanks another people course remember talking anything morning",
+      "things please through friend looking thought believe course little",
+      "anything remember trying people getting someone really before through",
+      "anything together family through yourself nothing listen looking course"
+     ]
+    },
+    {
+     "id": "en-l14-s2-04",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-punct",
+     "title": "Слова з «,»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Після слова — знак, далі пробіл великим пальцем: «,» — правий середній.",
+     "focus": ",",
+     "texts": [
+      "not, now, the, her, up, here, to, can, what, want,",
+      "well, is, want, and, at, to, they, so, all, about,",
+      "be, about, on, no, my, do, her, see, they, up,",
+      "it, this, to, no, my, if, as, about, go, is,"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l15",
+   "n": 15,
+   "kind": "keys",
+   "title": "Клавіші «x» і «.»",
+   "newKeys": [
+    "x",
+    "."
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.",
+   "exercises": [
+    {
+     "id": "en-l15-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «x»",
+     "goal": "лівий безіменний: з домашньої «s» на «x» (нижній ряд) і одразу назад на «s».",
+     "focus": "x",
+     "texts": [
+      "sxs sxs ssx xxs sx xs sxxs sxs sxs ssx xxs sx"
+     ]
+    },
+    {
+     "id": "en-l15-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «.»",
+     "goal": "правий безіменний: з домашньої «l» на «.» (нижній ряд) і одразу назад на «l».",
+     "focus": ".",
+     "texts": [
+      "l.l l.l ll. ..l l. .l l..l l.l l.l ll. ..l l."
+     ]
+    },
+    {
+     "id": "en-l15-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«x» і «.» разом",
+     "goal": "Чергування двох нових клавіш: «x» лівий безіменний → «.» правий безіменний (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "x.",
+     "texts": [
+      "sxs l.l x. .x sxl. l.sx x.x .x. sxs l.l x. .x sxl."
+     ]
+    },
+    {
+     "id": "en-l15-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «x» і «.»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: ex, xp, xt, xc, xa, ix, ax, xi. Це ще не слова, а переходи між клавішами.",
+     "focus": "x.",
+     "texts": [
+      "ex ex xp xp xt xt xc xc xa xa ix ix ax ax xi xi ex"
+     ]
+    },
+    {
+     "id": "en-l15-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «x»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «x» — лівий безіменний.",
+     "focus": "x",
+     "texts": [
+      "except explosion expecting extremely mixed exactly expensive example",
+      "example mixed expecting fixed taxi except expected exchange excellent",
+      "fixed expect mixed excited excuse next fox exact experience taxi",
+      "fox experience exciting exist expensive text express extra relax"
+     ]
+    },
+    {
+     "id": "en-l15-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "the is no will they come she right like oh so well think out got",
+      "she and but at like that your got what not all there will just",
+      "what are no we your this can at that not see just she one well",
+      "will no it on there well the not have is right they at just and"
+     ]
+    },
+    {
+     "id": "en-l15-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "happened enough something through things thought coming talking always",
+      "someone listen course father understand around everything please better",
+      "talking things morning trying better mother wanted remember happened",
+      "family course through getting father friend morning little things"
+     ]
+    },
+    {
+     "id": "en-l15-s2-04",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-punct",
+     "title": "Слова з «.»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Після слова — знак, далі пробіл великим пальцем: «.» — правий безіменний.",
+     "focus": ".",
+     "texts": [
+      "she, yeah. can, got. do, it. you, is. my, oh.",
+      "on. your, think. but, for. got, him. with, see. one,",
+      "is, they. him, there. are, have. me, know. that, come.",
+      "want. all, come. was, we. you, here. but, it. oh,"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l16",
+   "n": 16,
+   "kind": "keys",
+   "title": "Клавіші «z» і «'»",
+   "newKeys": [
+    "z",
+    "'"
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'",
+   "exercises": [
+    {
+     "id": "en-l16-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «z»",
+     "goal": "лівий мізинець: з домашньої «a» на «z» (нижній ряд) і одразу назад на «a».",
+     "focus": "z",
+     "texts": [
+      "aza aza aaz zza az za azza aza aza aaz zza az"
+     ]
+    },
+    {
+     "id": "en-l16-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "key",
+     "title": "Нова клавіша «'»",
+     "goal": "правий мізинець: з домашньої «;» на «'» (домашній ряд) і одразу назад на «;».",
+     "focus": "'",
+     "texts": [
+      ";'; ;'; ;;' ''; ;' '; ;''; ;'; ;'; ;;' ''; ;'"
+     ]
+    },
+    {
+     "id": "en-l16-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "pair",
+     "title": "«z» і «'» разом",
+     "goal": "Чергування двох нових клавіш: «z» лівий мізинець → «'» правий мізинець (чергування рук). Після кожного натискання палець повертається на домашній ряд.",
+     "focus": "z'",
+     "texts": [
+      "aza ;'; z' 'z az;' ;'az z'z 'z' aza ;'; z' 'z az;'"
+     ]
+    },
+    {
+     "id": "en-l16-s1-04",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "combo",
+     "title": "Пари клавіш із «z» і «'»",
+     "goal": "Найчастіші в мові пари літер із новими клавішами: ze, iz, az, zy, zi, ez, za, zo. Це ще не слова, а переходи між клавішами.",
+     "focus": "z'",
+     "texts": [
+      "ze ze iz iz az az zy zy zi zi ez ez za za zo zo ze"
+     ]
+    },
+    {
+     "id": "en-l16-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-new",
+     "title": "Слова з «z»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є нова клавіша: «z» — лівий мізинець.",
+     "focus": "z",
+     "texts": [
+      "recognized civilization magazine size zone freeze crazy squeeze",
+      "jazz freeze breeze zoo pizza recognized zone freezing puzzle squeeze",
+      "zone wizard lazy puzzle pizza zoo dizzy buzzing size magazines",
+      "jazz bizarre buzzing freezing prize crazy realized organized dizzy"
+     ]
+    },
+    {
+     "id": "en-l16-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова з відкритих клавіш",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Це найуживаніші слова мови, які вже можна набрати.",
+     "focus": "",
+     "texts": [
+      "have so get me now was all this him it well they got and about",
+      "get how got out up your will to here now we no if you what there",
+      "have and at to see about in me on got this yeah just he her how",
+      "this well got will they is with to know how she no want now was"
+     ]
+    },
+    {
+     "id": "en-l16-s2-03",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-long",
+     "title": "Довші слова",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Слова від шести літер: тримай рівний ритм до кінця слова.",
+     "focus": "",
+     "texts": [
+      "another wanted yourself anything father enough remember happened trying",
+      "through please everything little thought together happened because",
+      "trying through friend getting morning remember please something really",
+      "understand happened thanks people something always yourself looking"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l17",
+   "n": 17,
+   "kind": "review",
+   "title": "Вертикальні переходи між рядами",
+   "newKeys": [],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'",
+   "exercises": [
+    {
+     "id": "en-l17-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Вертикаль: домашній → верхній ряд",
+     "goal": "Кожен палець тягнеться вгору до своєї клавіші та повертається на домашню. Кисть не рухається.",
+     "focus": "aqaswsdedfrfjujkiklol;p;",
+     "texts": [
+      "aqa sws ded frf juj kik lol ;p; aqa sws ded frf juj"
+     ]
+    },
+    {
+     "id": "en-l17-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Вертикаль: домашній → нижній ряд",
+     "goal": "Кожен палець опускається до своєї клавіші нижнього ряду та повертається на домашню.",
+     "focus": "azasxsdcdfvfjmjk,kl.l",
+     "texts": [
+      "aza sxs dcd fvf jmj k,k l.l aza sxs dcd fvf jmj k,k"
+     ]
+    },
+    {
+     "id": "en-l17-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Вертикаль: домашній → верхній → нижній",
+     "goal": "Повний вертикальний перехід одним пальцем через три ряди з поверненням на домашню клавішу.",
+     "focus": "aqazaswsxsdedcdfrfvfjujmjkik,klol.l",
+     "texts": [
+      "aqaza swsxs dedcd frfvf jujmj kik,k lol.l aqaza swsxs"
+     ]
+    },
+    {
+     "id": "en-l17-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-same-finger",
+     "title": "Один палець між рядами",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові один палець натискає дві різні клавіші поспіль — не поспішай на цьому переході.",
+     "focus": "",
+     "texts": [
+      "kind why told around lot anything because much look long guys",
+      "much found made love long kind old left because understand around",
+      "talking told because wanted kind left look great old hello dead",
+      "many anything made why great wanted look from looking left must"
+     ]
+    },
+    {
+     "id": "en-l17-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-repeat",
+     "title": "Повтори тієї самої клавіші",
+     "goal": "Справжні слова лише з уже відкритих клавіш. У кожному слові є подвоєна літера: два рівні натискання одним пальцем.",
+     "focus": "",
+     "texts": [
+      "happy really matter room better good door need see little actually",
+      "hello call called seen tell miss feel will happy actually happened",
+      "call looking happened door off need little all getting really",
+      "matter pretty little good looking off guess been too all door"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l18",
+   "n": 18,
+   "kind": "review",
+   "title": "Один палець — кілька клавіш",
+   "newKeys": [],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'",
+   "exercises": [
+    {
+     "id": "en-l18-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Вказівні пальці: шість клавіш кожен",
+     "goal": "Вказівний палець відповідає за шість клавіш. Щоразу він повертається на свою домашню клавішу з виступом.",
+     "focus": "frffvfftffgffbfjyjjhjjnjjujjmj",
+     "texts": [
+      "frf fvf ftf fgf fbf jyj jhj jnj juj jmj frf fvf ftf fgf"
+     ]
+    },
+    {
+     "id": "en-l18-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Середні, безіменні та мізинці",
+     "goal": "Контроль одного пальця на кількох закріплених за ним клавішах: від середніх пальців до мізинців.",
+     "focus": "deddcdkikswssxslolaqaaza;p;",
+     "texts": [
+      "ded dcd kik sws sxs lol aqa aza ;p; ded dcd kik sws sxs"
+     ]
+    },
+    {
+     "id": "en-l18-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "scale",
+     "title": "Ряди цілком: зліва направо і назад",
+     "goal": "Послідовний рух по кожному ряду: верхній, домашній, нижній — туди й назад.",
+     "focus": "qwertyuiopasdfghjklzxcvbnm",
+     "texts": [
+      "qwert yuiop asdfg hjkl zxcv bnm poiuy trewq lkjhg fdsa mnbv"
+     ]
+    },
+    {
+     "id": "en-l18-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-alternate",
+     "title": "Чергування рук у словах",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Кожна наступна літера — іншою рукою: такі слова набираються найрівніше.",
+     "focus": "",
+     "texts": [
+      "girls sighs make work problem their name girl town laughs hand",
+      "turn sick fight girls name throw problem then right city than",
+      "wish half down sign hand town girls name right work sick with",
+      "girl they girls sick when name hair throw both right town their"
+     ]
+    },
+    {
+     "id": "en-l18-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-frequent",
+     "title": "Найчастіші слова: усі літери",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Усі літери абетки вже відкриті — це найуживаніші слова мови.",
+     "focus": "",
+     "texts": [
+      "way want very and good got out more you time okay really she know",
+      "like just know was never did can are time come will okay all say",
+      "them one good had very yeah his could going see way they get think",
+      "you okay got has good now and really the then just time with say"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l19",
+   "n": 19,
+   "kind": "shift",
+   "title": "Shift і великі літери",
+   "newKeys": [
+    "Shift"
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'FJDKSLAGHEIRUTYOWPQNBMVCXZ",
+   "exercises": [
+    {
+     "id": "en-l19-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "shift",
+     "title": "Лівий Shift і права рука",
+     "goal": "Велику літеру правої руки набирай, утримуючи лівий Shift лівим мізинцем. Після натискання мізинець повертається на домашню клавішу.",
+     "focus": "JKLHIUYOPN",
+     "texts": [
+      "Jj Kk Ll Hh Ii Uu Yy Oo Pp Nn Jj Kk Ll Hh Ii Uu"
+     ]
+    },
+    {
+     "id": "en-l19-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "shift",
+     "title": "Правий Shift і ліва рука",
+     "goal": "Велику літеру лівої руки набирай, утримуючи правий Shift правим мізинцем.",
+     "focus": "FDSAGERTWQ",
+     "texts": [
+      "Ff Dd Ss Aa Gg Ee Rr Tt Ww Qq Ff Dd Ss Aa Gg Ee"
+     ]
+    },
+    {
+     "id": "en-l19-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "shift",
+     "title": "Shift по черзі обома мізинцями",
+     "goal": "Shift завжди натискає мізинець руки, протилежної літері. Тут руки міняються щопари.",
+     "focus": "FDSAGERTWQJKLHIUYOPN",
+     "texts": [
+      "Fj Jf Dk Kd Sl Ls Ah Ha Gi Ig Eu Ue Fj Jf Dk Kd Sl"
+     ]
+    },
+    {
+     "id": "en-l19-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-capital",
+     "title": "Слова з великої літери",
+     "goal": "Справжні слова лише з відкритих клавіш. Перша літера — велика: Shift мізинцем протилежної руки.",
+     "focus": "",
+     "texts": [
+      "There For Have Was With Think Get Just Come You That All Got Are",
+      "For Are With Will Right There You Him Got Want Think They The",
+      "With Know Got You She All Have Think That Are And One See Right",
+      "Out Her And Get One All The But Here They See Got Yeah That You"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l20",
+   "n": 20,
+   "kind": "punct",
+   "title": "Розділові знаки - ? ! : \"",
+   "newKeys": [
+    "-",
+    "?",
+    "!",
+    ":",
+    "\""
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'FJDKSLAGHEIRUTYOWPQNBMVCXZ-?!:\"",
+   "exercises": [
+    {
+     "id": "en-l20-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "punct",
+     "title": "Розділові знаки «-» і «?»",
+     "goal": "«-» — правий мізинець; «?» — правий мізинець із Shift (лівий мізинець). Кожен знак — окремий рух із поверненням на домашній ряд.",
+     "focus": "-?",
+     "texts": [
+      ";-; ;- -; ;?; ;? ?; ;-; ;- -; ;?; ;? ?; ;-; ;-"
+     ]
+    },
+    {
+     "id": "en-l20-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "punct",
+     "title": "Розділові знаки «!» і «:»",
+     "goal": "«!» — лівий мізинець із Shift (правий мізинець); «:» — правий мізинець із Shift (лівий мізинець). Кожен знак — окремий рух із поверненням на домашній ряд.",
+     "focus": "!:",
+     "texts": [
+      "a!a a! !a ;:; ;: :; a!a a! !a ;:; ;: :; a!a a!"
+     ]
+    },
+    {
+     "id": "en-l20-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "punct",
+     "title": "Розділові знаки «\"»",
+     "goal": "«\"» — правий мізинець із Shift (лівий мізинець). Кожен знак — окремий рух із поверненням на домашній ряд.",
+     "focus": "\"",
+     "texts": [
+      ";\"; ;\" \"; ;\"; ;\" \"; ;\"; ;\" \"; ;\"; ;\" \"; ;\"; ;\""
+     ]
+    },
+    {
+     "id": "en-l20-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-apostrophe",
+     "title": "Слова з апострофом",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Апостроф — окремий рух усередині слова; будь-який варіант апострофа (', ’, ʼ) зараховується як той самий знак.",
+     "focus": "'",
+     "texts": [
+      "what's he's you're we'd they've you've you'd aren't he'll shouldn't",
+      "what's they'll he'll didn't they'd here's there's you've we'll",
+      "couldn't won't we're who's there's wasn't it'll that's she'll",
+      "it's you've she'll weren't you're hasn't aren't doesn't wasn't"
+     ]
+    },
+    {
+     "id": "en-l20-s2-02",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-punct",
+     "title": "Слова зі знаками «?» «!» «:»",
+     "goal": "Справжні слова лише з уже відкритих клавіш. Знак ставиться одразу після слова, далі — пробіл.",
+     "focus": "?!:",
+     "texts": [
+      "they? about! she: have? her! just: that? are! like: get?",
+      "about! her: got? are! the: and? with! can: there? know!",
+      "there: about? that! with: want? yeah! what: know? like! was:",
+      "all? you! what: that? how! her: will? are! they: one?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-l21",
+   "n": 21,
+   "kind": "digits",
+   "title": "Цифри",
+   "newKeys": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "0"
+   ],
+   "opened": " fjdksla;gheirutyowpqnbmvc,x.z'FJDKSLAGHEIRUTYOWPQNBMVCXZ-?!:\"1234567890",
+   "exercises": [
+    {
+     "id": "en-l21-s1-01",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "digits",
+     "title": "Цифри лівої руки: 1–5",
+     "goal": "Палець тягнеться через верхній ряд до цифри та повертається на домашню клавішу: 1 — мізинець, 2 — безіменний, 3 — середній, 4 і 5 — вказівний.",
+     "focus": "12345",
+     "texts": [
+      "a1a s2s d3d f4f f5f a1a s2s d3d f4f f5f a1a s2s"
+     ]
+    },
+    {
+     "id": "en-l21-s1-02",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "digits",
+     "title": "Цифри правої руки: 6–0",
+     "goal": "6 і 7 — правий вказівний, 8 — середній, 9 — безіменний, 0 — мізинець. Після цифри палець повертається додому.",
+     "focus": "67890",
+     "texts": [
+      "j6j j7j k8k l9l ;0; j6j j7j k8k l9l ;0; j6j j7j"
+     ]
+    },
+    {
+     "id": "en-l21-s1-03",
+     "stage": 1,
+     "mechanical": true,
+     "kind": "digits",
+     "title": "Усі цифри",
+     "goal": "Цифровий ряд цілком: зліва направо, назад, непарні й парні.",
+     "focus": "1234567890",
+     "texts": [
+      "12345 67890 09876 54321 13579 24680 10 29 38 47 56"
+     ]
+    },
+    {
+     "id": "en-l21-s2-01",
+     "stage": 2,
+     "mechanical": false,
+     "kind": "words-numbers",
+     "title": "Числа зі словами",
+     "goal": "Справжні слова лише з відкритих клавіш і числа перед ними. Після числа палець повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "79 months 98 people 68 pages 38 days 97 minutes 65 steps 50 times 58 words",
+      "66 days 5 hours 75 people 69 times 7 minutes 96 years 12 pages 88 steps",
+      "25 years 87 months 9 steps 25 people 26 times 97 days 76 pages 10 words",
+      "8 steps 65 words 39 years 80 months 39 times 27 hours 9 minutes 37 days"
+     ]
+    }
+   ]
+  }
+ ],
+ "academy": [
+  {
+   "id": "en-a01",
+   "n": 1,
+   "title": "Найчастіші біграми",
+   "description": "Десять найчастотніших пар літер усередині слів. Вага пари — сума частот слів, у яких вона трапляється.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a01-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «th»",
+     "goal": "№ 1 за частотою: трапляється у словах, що дають 11,3 % усіх слововживань. «t» лівий вказівний → «h» правий вказівний (чергування рук).",
+     "focus": "th",
+     "ngram": "th",
+     "share": 11.3,
+     "texts": [
+      "th th th their nothing the anything they this something thank thing these",
+      "th th th they then these thing this thank the anything there nothing think",
+      "th th th the this anything them these with they then thing there think"
+     ]
+    },
+    {
+     "id": "en-a01-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «he»",
+     "goal": "№ 2 за частотою: трапляється у словах, що дають 9,6 % усіх слововживань. «h» правий вказівний → «e» лівий середній (чергування рук).",
+     "focus": "he",
+     "ngram": "he",
+     "share": 9.6,
+     "texts": [
+      "he he he them she hey there then her these help father here the other where",
+      "he he he her the hey here they father them help she where there then other",
+      "he he he the where her there she help them then these hey father when their"
+     ]
+    },
+    {
+     "id": "en-a01-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «ou»",
+     "goal": "№ 3 за частотою: трапляється у словах, що дають 8,5 % усіх слововживань. «o» правий безіменний → «u» правий вказівний (одна рука, несусідні пальці).",
+     "focus": "ou",
+     "ngram": "ou",
+     "share": 8.5,
+     "texts": [
+      "ou ou ou found yourself our through course about your thought house out",
+      "ou ou ou around you house out yourself would course could about your enough",
+      "ou ou ou around would yourself could course through about your house found"
+     ]
+    },
+    {
+     "id": "en-a01-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «in»",
+     "goal": "№ 4 за частотою: трапляється у словах, що дають 6,7 % усіх слововживань. «i» правий середній → «n» правий вказівний (перекат сусідніми пальцями).",
+     "focus": "in",
+     "ngram": "in",
+     "share": 6.7,
+     "texts": [
+      "in in in again into find something coming going doing everything nothing",
+      "in in in being anything everything going fine doing into things find again",
+      "in in in going anything kind thing everything doing find fine things into"
+     ]
+    },
+    {
+     "id": "en-a01-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «yo»",
+     "goal": "№ 5 за частотою: трапляється у словах, що дають 5,7 % усіх слововживань. «y» правий вказівний → «o» правий безіменний (одна рука, несусідні пальці).",
+     "focus": "yo",
+     "ngram": "yo",
+     "share": 5.7,
+     "texts": [
+      "yo yo yo youth yourselves yoga beyond mayor you everyone youngest young",
+      "yo yo yo yoga yogurt your yours beyond everyone you yourselves young youngest",
+      "yo yo yo youngest younger anyone beyond everyone mayor canyon yourselves"
+     ]
+    },
+    {
+     "id": "en-a01-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «er»",
+     "goal": "№ 6 за частотою: трапляється у словах, що дають 5,6 % усіх слововживань. «e» лівий середній → «r» лівий вказівний (перекат сусідніми пальцями).",
+     "focus": "er",
+     "ngram": "er",
+     "share": 5.6,
+     "texts": [
+      "er er er were other here every better everything her where there mother",
+      "er er er everything her here never mother better over where other father",
+      "er er er very everything other ever after where were never here there better"
+     ]
+    },
+    {
+     "id": "en-a01-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «an»",
+     "goal": "№ 7 за частотою: трапляється у словах, що дають 5,5 % усіх слововживань. «a» лівий мізинець → «n» правий вказівний (чергування рук).",
+     "focus": "an",
+     "ngram": "an",
+     "share": 5.5,
+     "texts": [
+      "an an an than anything thanks mean wanted and another any woman many want",
+      "an an an thank understand woman thanks any many want anything wanted and",
+      "an an an many and thanks can woman than mean anything another any wanted"
+     ]
+    },
+    {
+     "id": "en-a01-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «re»",
+     "goal": "№ 8 за частотою: трапляється у словах, що дають 5,1 % усіх слововживань. «r» лівий вказівний → «e» лівий середній (перекат сусідніми пальцями).",
+     "focus": "re",
+     "ngram": "re",
+     "share": 5.1,
+     "texts": [
+      "re re re real before care were three great more here sure ready already",
+      "re re re remember where here great ready there really were more are before",
+      "re re re sure care more here where before ready remember three really real"
+     ]
+    },
+    {
+     "id": "en-a01-09",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «ha»",
+     "goal": "№ 9 за частотою: трапляється у словах, що дають 5,1 % усіх слововживань. «h» правий вказівний → «a» лівий мізинець (чергування рук).",
+     "focus": "ha",
+     "ngram": "ha",
+     "share": 5.1,
+     "texts": [
+      "ha ha ha that what thanks happy had than having whatever happened happen",
+      "ha ha ha whatever that have what thank hard than had having hand happen",
+      "ha ha ha what happened thank happen having that whatever have happy thanks"
+     ]
+    },
+    {
+     "id": "en-a01-10",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Біграма «at»",
+     "goal": "№ 10 за частотою: трапляється у словах, що дають 4,7 % усіх слововживань. «a» лівий мізинець → «t» лівий вказівний (одна рука, несусідні пальці).",
+     "focus": "at",
+     "ngram": "at",
+     "share": 4.7,
+     "texts": [
+      "at at at that death water watch father late rather hate what great whatever",
+      "at at at what eat father that water catch later matter whatever watch great",
+      "at at at that water rather father catch what death watch whatever late"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a02",
+   "n": 2,
+   "title": "Найчастіші триграми",
+   "description": "Вісім найчастотніших трійок літер. Три натискання мають злитися в один рух.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a02-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «the»",
+     "goal": "№ 1 за частотою: трапляється у словах, що дають 5,9 % усіх слововживань. «t» лівий вказівний → «h» правий вказівний (чергування рук); «h» правий вказівний → «e» лівий середній (чергування рук).",
+     "focus": "the",
+     "ngram": "the",
+     "share": 5.9,
+     "texts": [
+      "the the the these either they then rather together other brother another",
+      "the the the them clothes then father other these there either mother rather",
+      "the the the they there either their then them father together other others"
+     ]
+    },
+    {
+     "id": "en-a02-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «you»",
+     "goal": "№ 2 за частотою: трапляється у словах, що дають 5,6 % усіх слововживань. «y» правий вказівний → «o» правий безіменний (одна рука, несусідні пальці); «o» правий безіменний → «u» правий вказівний (одна рука, несусідні пальці).",
+     "focus": "you",
+     "ngram": "you",
+     "share": 5.6,
+     "texts": [
+      "you you you joyous yourselves youngest youthful yours your youngsters younger",
+      "you you you youngsters yourself yours youthful joyous your young younger",
+      "you you you your layout younger youthful youngsters youngest yourselves"
+     ]
+    },
+    {
+     "id": "en-a02-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «ing»",
+     "goal": "№ 3 за частотою: трапляється у словах, що дають 3,3 % усіх слововживань. «i» правий середній → «n» правий вказівний (перекат сусідніми пальцями); «n» правий вказівний → «g» лівий вказівний (чергування рук).",
+     "focus": "ing",
+     "ngram": "ing",
+     "share": 3.3,
+     "texts": [
+      "ing ing ing looking coming getting anything bring thing doing something",
+      "ing ing ing getting going things anything everything talking thing doing",
+      "ing ing ing nothing getting morning going doing talking everything bring"
+     ]
+    },
+    {
+     "id": "en-a02-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «hat»",
+     "goal": "№ 4 за частотою: трапляється у словах, що дають 2,9 % усіх слововживань. «h» правий вказівний → «a» лівий мізинець (чергування рук); «a» лівий мізинець → «t» лівий вказівний (одна рука, несусідні пальці).",
+     "focus": "hat",
+     "ngram": "hat",
+     "share": 2.9,
+     "texts": [
+      "hat hat hat hats hatred whatsoever what hated chatter hatch shattered chat",
+      "hat hat hat whatever hath that hated somewhat hats hatch what hate shattered",
+      "hat hat hat hated chat chattering shattered hath hates hatch chatter hate"
+     ]
+    },
+    {
+     "id": "en-a02-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «her»",
+     "goal": "№ 5 за частотою: трапляється у словах, що дають 2,2 % усіх слововживань. «h» правий вказівний → «e» лівий середній (чергування рук); «e» лівий середній → «r» лівий вказівний (перекат сусідніми пальцями).",
+     "focus": "her",
+     "ngram": "her",
+     "share": 2.2,
+     "texts": [
+      "her her her others brother neither either here where rather whether together",
+      "her her her somewhere another where mother either father brother others",
+      "her her her somewhere here others other another whether either neither"
+     ]
+    },
+    {
+     "id": "en-a02-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «and»",
+     "goal": "№ 6 за частотою: трапляється у словах, що дають 2,1 % усіх слововживань. «a» лівий мізинець → «n» правий вказівний (чергування рук); «n» правий вказівний → «d» лівий середній (чергування рук).",
+     "focus": "and",
+     "ngram": "and",
+     "share": 2.1,
+     "texts": [
+      "and and and understand island handle hand grandpa band commander land grandma",
+      "and and and land grandma hand band husband command grand grandpa standing",
+      "and and and land hands band grand grandpa stand hand handle standing understand"
+     ]
+    },
+    {
+     "id": "en-a02-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «thi»",
+     "goal": "№ 7 за частотою: трапляється у словах, що дають 2 % усіх слововживань. «t» лівий вказівний → «h» правий вказівний (чергування рук); «h» правий вказівний → «i» правий середній (перекат сусідніми пальцями).",
+     "focus": "thi",
+     "ngram": "thi",
+     "share": 2,
+     "texts": [
+      "thi thi thi everything thick nothing thinking thinks think anything this",
+      "thi thi thi thin thing something everything nothing thinking thief within",
+      "thi thi thi anything thief thin thinks things breathing something everything"
+     ]
+    },
+    {
+     "id": "en-a02-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Триграма «tha»",
+     "goal": "№ 8 за частотою: трапляється у словах, що дають 2 % усіх слововживань. «t» лівий вказівний → «h» правий вказівний (чергування рук); «h» правий вказівний → «a» лівий мізинець (чергування рук).",
+     "focus": "tha",
+     "ngram": "tha",
+     "share": 2,
+     "texts": [
+      "tha tha tha that thankful than thanking methane thanks lethal thankfully",
+      "tha tha tha lethal thank that thatcher thankfully thankful that's than",
+      "tha tha tha thanksgiving that's thank thankfully than thanked methane thanking"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a03",
+   "n": 3,
+   "title": "Закінчення, суфікси та префікси",
+   "description": "Типові морфеми мови: вага кожної обчислена зі словника як сума частот слів із цією морфемою.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a03-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-ing»",
+     "goal": "Слова на «-ing» дають 3,1 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "ing",
+     "ngram": "ing",
+     "share": 3.1,
+     "texts": [
+      "ing ing trying anything coming nothing everything something thing saying",
+      "ing ing thinking thing doing talking morning bring anything nothing being",
+      "ing ing getting morning trying looking saying something coming being having"
+     ]
+    },
+    {
+     "id": "en-a03-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-er»",
+     "goal": "Слова на «-er» дають 2,2 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "er",
+     "ngram": "er",
+     "share": 2.2,
+     "texts": [
+      "er er over under other matter remember whatever better brother water together",
+      "er er together brother another over remember father number ever matter",
+      "er er mother father under other together ever whatever water brother matter"
+     ]
+    },
+    {
+     "id": "en-a03-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-ed»",
+     "goal": "Слова на «-ed» дають 1,9 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "ed",
+     "ngram": "ed",
+     "share": 1.9,
+     "texts": [
+      "ed ed happened called scared died need changed worked supposed wanted started",
+      "ed ed called wanted died used loved tried started asked changed needed",
+      "ed ed asked died called needed supposed changed tried loved worked married"
+     ]
+    },
+    {
+     "id": "en-a03-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-ly»",
+     "goal": "Слова на «-ly» дають 1 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "ly",
+     "ngram": "ly",
+     "share": 1,
+     "texts": [
+      "ly ly absolutely totally certainly obviously finally probably quickly really",
+      "ly ly definitely only exactly seriously probably actually family lovely",
+      "ly ly finally family only lovely probably absolutely exactly really actually"
+     ]
+    },
+    {
+     "id": "en-a03-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-tion»",
+     "goal": "Слова на «-tion» дають 0,31 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "tion",
+     "ngram": "tion",
+     "share": 0.31,
+     "texts": [
+      "tion tion mention investigation competition conversation attention location",
+      "tion tion location information action direction mention competition conversation",
+      "tion tion investigation operation nation connection direction action information"
+     ]
+    },
+    {
+     "id": "en-a03-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-ment»",
+     "goal": "Слова на «-ment» дають 0,13 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "ment",
+     "ngram": "ment",
+     "share": 0.13,
+     "texts": [
+      "ment ment basement equipment argument experiment moment government department",
+      "ment ment engagement environment appointment equipment apartment judgment",
+      "ment ment punishment engagement statement judgment treatment movement basement"
+     ]
+    },
+    {
+     "id": "en-a03-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Закінчення «-ous»",
+     "goal": "Слова на «-ous» дають 0,11 % слововживань. Закінчення набирається одним злитим рухом.",
+     "focus": "ous",
+     "ngram": "ous",
+     "share": 0.11,
+     "texts": [
+      "ous ous suspicious precious ridiculous curious dangerous jealous serious",
+      "ous ous precious generous mysterious previous enormous ridiculous nervous",
+      "ous ous mysterious dangerous curious gorgeous ridiculous enormous generous"
+     ]
+    },
+    {
+     "id": "en-a03-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Префікс «re-»",
+     "goal": "Слова на «re-» дають 0,88 % слововживань. Початок слова набирається одним злитим рухом.",
+     "focus": "re",
+     "ngram": "re",
+     "share": 0.88,
+     "texts": [
+      "re re remember reach respect reason report rest restaurant read return",
+      "re re rest restaurant remember relationship report reach record really",
+      "re re relationship responsible relax return respect reading report reason"
+     ]
+    },
+    {
+     "id": "en-a03-09",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Префікс «un-»",
+     "goal": "Слова на «un-» дають 0,26 % слововживань. Початок слова набирається одним злитим рухом.",
+     "focus": "un",
+     "ngram": "un",
+     "share": 0.26,
+     "texts": [
+      "un un unique until university unusual understood unbelievable under unknown",
+      "un un universe understand unless under until uniform unusual university",
+      "un un university unusual uncle universe under unfortunately unbelievable"
+     ]
+    },
+    {
+     "id": "en-a03-10",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Префікс «pre-»",
+     "goal": "Слова на «pre-» дають 0,15 % слововживань. Початок слова набирається одним злитим рухом.",
+     "focus": "pre",
+     "ngram": "pre",
+     "share": 0.15,
+     "texts": [
+      "pre pre precious prefer precisely presence pretending prepared pregnant",
+      "pre pre previously pregnant present press president pressure presence pretty",
+      "pre pre press precious previous president pretend pretty prepared precisely"
+     ]
+    },
+    {
+     "id": "en-a03-11",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "morpheme",
+     "title": "Префікс «dis-»",
+     "goal": "Слова на «dis-» дають 0,09 % слововживань. Початок слова набирається одним злитим рухом.",
+     "focus": "dis",
+     "ngram": "dis",
+     "share": 0.09,
+     "texts": [
+      "dis dis disturbing disappeared disgusting disturb dishes dismissed discuss",
+      "dis dis discovery disturb disturbing disappointed distant disappear discovered",
+      "dis dis discussion disgusting discovered disturbing discuss dishes disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a04",
+   "n": 4,
+   "title": "Складні переходи одним пальцем",
+   "description": "Найчастіші пари літер, які набирає той самий палець на різних клавішах. Тут важлива не швидкість, а чистий рух.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a04-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «ed»",
+     "goal": "№ 1 за частотою: трапляється у словах, що дають 2,1 % усіх слововживань. «e» лівий середній → «d» лівий середній (один палець, дві клавіші).",
+     "focus": "ed",
+     "ngram": "ed",
+     "share": 2.1,
+     "texts": [
+      "ed ed ed tried worked asked scared looked used needs called red happened",
+      "ed ed ed married started needs asked called loved died worked happened",
+      "ed ed ed happened died need asked wanted needs loved worked bed used supposed"
+     ]
+    },
+    {
+     "id": "en-a04-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «lo»",
+     "goal": "№ 2 за частотою: трапляється у словах, що дають 1,4 % усіх слововживань. «l» правий безіменний → «o» правий безіменний (один палець, дві клавіші).",
+     "focus": "lo",
+     "ngram": "lo",
+     "share": 1.4,
+     "texts": [
+      "lo lo lo hello loved looking looks lot long longer alone love along blood",
+      "lo lo lo look along love alone close looking longer lost hello long lord",
+      "lo lo lo lose lost looks look love along long lot hello looked follow lord"
+     ]
+    },
+    {
+     "id": "en-a04-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «de»",
+     "goal": "№ 3 за частотою: трапляється у словах, що дають 1,3 % усіх слововживань. «d» лівий середній → «e» лівий середній (один палець, дві клавіші).",
+     "focus": "de",
+     "ngram": "de",
+     "share": 1.3,
+     "texts": [
+      "de de de president wonderful death dude order deal under idea wonder dead",
+      "de de de idea president outside wonderful dead deal decided inside order",
+      "de de de dude deal dead decided under understand wonderful wonder dear"
+     ]
+    },
+    {
+     "id": "en-a04-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «ce»",
+     "goal": "№ 4 за частотою: трапляється у словах, що дають 1,1 % усіх слововживань. «c» лівий середній → «e» лівий середній (один палець, дві клавіші).",
+     "focus": "ce",
+     "ngram": "ce",
+     "share": 1.1,
+     "texts": [
+      "ce ce ce certainly officer nice face since dance space office piece peace",
+      "ce ce ce space once officer voice piece since except place nice choice",
+      "ce ce ce evidence except chance space certainly dance officer face piece"
+     ]
+    },
+    {
+     "id": "en-a04-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «un»",
+     "goal": "№ 5 за частотою: трапляється у словах, що дають 0,97 % усіх слововживань. «u» правий вказівний → «n» правий вказівний (один палець, дві клавіші).",
+     "focus": "un",
+     "ngram": "un",
+     "share": 0.97,
+     "texts": [
+      "un un un until unless funny round run country running understand found",
+      "un un un fun under around understand gun found unless uncle country young",
+      "un un un round until sound funny found around uncle gun unless running"
+     ]
+    },
+    {
+     "id": "en-a04-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «my»",
+     "goal": "№ 6 за частотою: трапляється у словах, що дають 0,89 % усіх слововживань. «m» правий вказівний → «y» правий вказівний (один палець, дві клавіші).",
+     "focus": "my",
+     "ngram": "my",
+     "share": 0.89,
+     "texts": [
+      "my my my army economy gloomy mummy mommy enemy my mysterious yummy tummy",
+      "my my my dummy yummy mysteries my tummy economy gloomy myth mysterious",
+      "my my my mammy mysterious army myself academy mommy tummy my dummy mystery"
+     ]
+    },
+    {
+     "id": "en-a04-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «ec»",
+     "goal": "№ 7 за частотою: трапляється у словах, що дають 0,78 % усіх слововживань. «e» лівий середній → «c» лівий середній (один палець, дві клавіші).",
+     "focus": "ec",
+     "ngram": "ec",
+     "share": 0.78,
+     "texts": [
+      "ec ec ec become record decided special security second became check perfect",
+      "ec ec ec especially perfect special record protect respect decided secret",
+      "ec ec ec because become security became protect second decided especially"
+     ]
+    },
+    {
+     "id": "en-a04-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перехід «ol»",
+     "goal": "№ 8 за частотою: трапляється у словах, що дають 0,77 % усіх слововживань. «o» правий безіменний → «l» правий безіменний (один палець, дві клавіші).",
+     "focus": "ol",
+     "ngram": "ol",
+     "share": 0.77,
+     "texts": [
+      "ol ol ol old told holding school absolutely follow fool college gold involved",
+      "ol ol ol college absolutely involved cool follow police fool hold holy",
+      "ol ol ol gold holy told hold fool holding old involved police cold college"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a05",
+   "n": 5,
+   "title": "Чергування рук і перекати",
+   "description": "Слова, де руки працюють по черзі, та «перекати» — пари літер сусідніми пальцями однієї руки.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a05-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "alternate",
+     "title": "Чергування рук: часті слова",
+     "goal": "Кожна наступна літера — іншою рукою. Тримай рівний ритм: ліва, права, ліва, права.",
+     "focus": "",
+     "texts": [
+      "works throw girls spend eight island laugh sight laughs handle usual world",
+      "focus blame sighs laugh girls spend tight alright right shame laughs visit",
+      "shame handle laughs tight works spent their chair alright usual laugh"
+     ]
+    },
+    {
+     "id": "en-a05-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "alternate",
+     "title": "Чергування рук: довгі слова",
+     "goal": "Довші слова з повним чергуванням рук. Не прискорюйся посеред слова.",
+     "focus": "",
+     "texts": [
+      "neighbor problem thrown chapel ambush visual bicycle height theory alright",
+      "bicycle visual neighbor profit formal naughty theory signal ancient problems",
+      "handle signals neighbor visible visitor ritual chapel profit signal problem"
+     ]
+    },
+    {
+     "id": "en-a05-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «in»",
+     "goal": "№ 1 за частотою: трапляється у словах, що дають 6,7 % усіх слововживань. «i» правий середній → «n» правий вказівний (перекат сусідніми пальцями).",
+     "focus": "in",
+     "ngram": "in",
+     "share": 6.7,
+     "texts": [
+      "in in in kind everything in doing anything think thing again being coming",
+      "in in in going being doing fine into coming things in nothing think find",
+      "in in in doing into coming thing again things think going in fine kind"
+     ]
+    },
+    {
+     "id": "en-a05-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «er»",
+     "goal": "№ 2 за частотою: трапляється у словах, що дають 5,6 % усіх слововживань. «e» лівий середній → «r» лівий вказівний (перекат сусідніми пальцями).",
+     "focus": "er",
+     "ngram": "er",
+     "share": 5.6,
+     "texts": [
+      "er er er everything ever better every never mother very there father another",
+      "er er er other over after here another her understand there ever never",
+      "er er er ever other understand where father never another were everything"
+     ]
+    },
+    {
+     "id": "en-a05-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «re»",
+     "goal": "№ 3 за частотою: трапляється у словах, що дають 5,1 % усіх слововживань. «r» лівий вказівний → «e» лівий середній (перекат сусідніми пальцями).",
+     "focus": "re",
+     "ngram": "re",
+     "share": 5.1,
+     "texts": [
+      "re re re pretty already here real remember ready where were care really",
+      "re re re before here are three more already pretty ready there great really",
+      "re re re there were sure really remember more care are three different"
+     ]
+    },
+    {
+     "id": "en-a05-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «hi»",
+     "goal": "№ 4 за частотою: трапляється у словах, що дають 3,3 % усіх слововживань. «h» правий вказівний → «i» правий середній (перекат сусідніми пальцями).",
+     "focus": "hi",
+     "ngram": "hi",
+     "share": 3.3,
+     "texts": [
+      "hi hi hi children something nothing everything anything him child thinking",
+      "hi hi hi while this children think child something which him behind his",
+      "hi hi hi which something nothing anything think hit his everything children"
+     ]
+    },
+    {
+     "id": "en-a05-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «ve»",
+     "goal": "№ 5 за частотою: трапляється у словах, що дають 3 % усіх слововживань. «v» лівий вказівний → «e» лівий середній (перекат сусідніми пальцями).",
+     "focus": "ve",
+     "ngram": "ve",
+     "share": 3,
+     "texts": [
+      "ve ve ve even give gave love every very move never live have leave everybody",
+      "ve ve ve over very live never even give gave ever move believe five everything",
+      "ve ve ve never very gave give over move have believe love leave even five"
+     ]
+    },
+    {
+     "id": "en-a05-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Перекат «se»",
+     "goal": "№ 6 за частотою: трапляється у словах, що дають 2,4 % усіх слововживань. «s» лівий безіменний → «e» лівий середній (перекат сусідніми пальцями).",
+     "focus": "se",
+     "ngram": "se",
+     "share": 2.4,
+     "texts": [
+      "se se se see close seen please myself excuse else set use yourself case",
+      "se se se case excuse use close because please course set second house used",
+      "se se se else because excuse seen set course those close use second these"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a06",
+   "n": 6,
+   "title": "Подвоєння літер",
+   "description": "Подвоєна літера — два рівні натискання одним пальцем без напруження.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a06-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «ll»",
+     "goal": "№ 1 за частотою: трапляється у словах, що дають 2,8 % усіх слововживань. «l» правий безіменний → «l» правий безіменний (повтор тієї самої клавіші).",
+     "focus": "ll",
+     "ngram": "ll",
+     "share": 2.8,
+     "texts": [
+      "ll ll ll hello called call small really finally tell full follow telling",
+      "ll ll ll finally hello actually still full small shall tell call will well",
+      "ll ll ll will finally full well really till follow shall tell telling call"
+     ]
+    },
+    {
+     "id": "en-a06-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «ee»",
+     "goal": "№ 2 за частотою: трапляється у словах, що дають 1,7 % усіх слововживань. «e» лівий середній → «e» лівий середній (повтор тієї самої клавіші).",
+     "focus": "ee",
+     "ngram": "ee",
+     "share": 1.7,
+     "texts": [
+      "ee ee ee needs meet seem week need seems feeling three between seen sleep",
+      "ee ee ee sleep seems feel week between been three seem needs meet street",
+      "ee ee ee need three seem sleep keep street needs free week meet between"
+     ]
+    },
+    {
+     "id": "en-a06-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «oo»",
+     "goal": "№ 3 за частотою: трапляється у словах, що дають 1,4 % усіх слововживань. «o» правий безіменний → «o» правий безіменний (повтор тієї самої клавіші).",
+     "focus": "oo",
+     "ngram": "oo",
+     "share": 1.4,
+     "texts": [
+      "oo oo oo look poor shoot blood took looked looking soon food good book",
+      "oo oo oo door school cool food look looking book room soon poor looked",
+      "oo oo oo poor good blood book cool soon look door looked looking looks"
+     ]
+    },
+    {
+     "id": "en-a06-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «ss»",
+     "goal": "№ 4 за частотою: трапляється у словах, що дають 0,72 % усіх слововживань. «s» лівий безіменний → «s» лівий безіменний (повтор тієї самої клавіші).",
+     "focus": "ss",
+     "ngram": "ss",
+     "share": 0.72,
+     "texts": [
+      "ss ss ss less across business dress missing message unless kiss mess pass",
+      "ss ss ss mess message miss possible missed kiss boss class dress across",
+      "ss ss ss missed less missing dress business message mess boss class unless"
+     ]
+    },
+    {
+     "id": "en-a06-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «tt»",
+     "goal": "№ 5 за частотою: трапляється у словах, що дають 0,61 % усіх слововживань. «t» лівий вказівний → «t» лівий вказівний (повтор тієї самої клавіші).",
+     "focus": "tt",
+     "ngram": "tt",
+     "share": 0.61,
+     "texts": [
+      "tt tt tt forgotten better letter gotten attention matter sitting pretty",
+      "tt tt tt getting written sitting letter pretty little bottle better bottom",
+      "tt tt tt putting matter written getting better bottle letter sitting battle"
+     ]
+    },
+    {
+     "id": "en-a06-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "ngram",
+     "title": "Подвоєння «rr»",
+     "goal": "№ 6 за частотою: трапляється у словах, що дають 0,49 % усіх слововживань. «r» лівий вказівний → «r» лівий вказівний (повтор тієї самої клавіші).",
+     "focus": "rr",
+     "ngram": "rr",
+     "share": 0.49,
+     "texts": [
+      "rr rr rr hurry arrest carry tomorrow marry sorry correct horrible worry",
+      "rr rr rr tomorrow hurry marry arrest marriage arrested carry sorry horrible",
+      "rr rr rr arrived correct arrested horrible carry worry tomorrow arrest"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a07",
+   "n": 7,
+   "title": "Великі літери, розділові знаки й числа",
+   "description": "Апостроф, дефіс, кома, крапка, лапки, знаки питання й оклику та числа у справжніх реченнях.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a07-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "punctuation",
+     "title": "Розділові знаки в реченнях 1",
+     "goal": "Великі літери — із Shift мізинцем протилежної руки; після кожного знака палець повертається на домашній ряд.",
+     "focus": "",
+     "texts": [
+      "Don't look down: your fingers know the way. It's a well-known rule, isn't it? Yes! Keep your wrists still and your eyes up.",
+      "Yes! Keep your wrists still and your eyes up. It's a well-known rule, isn't it? Don't look down: your fingers know the way."
+     ]
+    },
+    {
+     "id": "en-a07-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "punctuation",
+     "title": "Розділові знаки в реченнях 2",
+     "goal": "Великі літери — із Shift мізинцем протилежної руки; після кожного знака палець повертається на домашній ряд.",
+     "focus": "",
+     "texts": [
+      "She said, \"Slow down and watch the screen.\" Can't find a key? Go back to the home row. We're ready; let's start with a warm-up.",
+      "We're ready; let's start with a warm-up. Can't find a key? Go back to the home row. She said, \"Slow down and watch the screen.\""
+     ]
+    },
+    {
+     "id": "en-a07-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "punctuation",
+     "title": "Розділові знаки в реченнях 3",
+     "goal": "Великі літери — із Shift мізинцем протилежної руки; після кожного знака палець повертається на домашній ряд.",
+     "focus": "",
+     "texts": [
+      "First, sit up straight; second, relax your shoulders. What's next? A twenty-minute lesson, that's all! \"Practice makes progress,\" the coach said.",
+      "\"Practice makes progress,\" the coach said. What's next? A twenty-minute lesson, that's all! First, sit up straight; second, relax your shoulders."
+     ]
+    },
+    {
+     "id": "en-a07-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "punctuation",
+     "title": "Розділові знаки в реченнях 4",
+     "goal": "Великі літери — із Shift мізинцем протилежної руки; після кожного знака палець повертається на домашній ряд.",
+     "focus": "",
+     "texts": [
+      "Left hand, right hand, left hand: keep it even. My sister-in-law types fast, but she doesn't rush. Is it hard? No, it's a matter of habit!",
+      "Is it hard? No, it's a matter of habit! My sister-in-law types fast, but she doesn't rush. Left hand, right hand, left hand: keep it even."
+     ]
+    },
+    {
+     "id": "en-a07-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "numbers",
+     "title": "Числа в реченнях 1",
+     "goal": "Цифри набираються тими самими пальцями, що й клавіші під ними; після числа рука повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "A year has 12 months and 365 days. The lesson takes 20 minutes, from 9:00 to 9:20.",
+      "The lesson takes 20 minutes, from 9:00 to 9:20. A year has 12 months and 365 days."
+     ]
+    },
+    {
+     "id": "en-a07-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "numbers",
+     "title": "Числа в реченнях 2",
+     "goal": "Цифри набираються тими самими пальцями, що й клавіші під ними; після числа рука повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "Train 74 leaves at 18:35 from platform 2. There are 28 students and 14 desks in our class.",
+      "There are 28 students and 14 desks in our class. Train 74 leaves at 18:35 from platform 2."
+     ]
+    },
+    {
+     "id": "en-a07-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "numbers",
+     "title": "Числа в реченнях 3",
+     "goal": "Цифри набираються тими самими пальцями, що й клавіші під ними; після числа рука повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "The ticket costs 150, with a 10% discount. Call the help desk at 0 800 50 43 21.",
+      "Call the help desk at 0 800 50 43 21. The ticket costs 150, with a 10% discount."
+     ]
+    },
+    {
+     "id": "en-a07-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "numbers",
+     "title": "Числа в реченнях 4",
+     "goal": "Цифри набираються тими самими пальцями, що й клавіші під ними; після числа рука повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "Accuracy 97%, speed 160 characters per minute. A keyboard has 4 rows and 10 digits: from 1 to 0.",
+      "A keyboard has 4 rows and 10 digits: from 1 to 0. Accuracy 97%, speed 160 characters per minute."
+     ]
+    },
+    {
+     "id": "en-a07-09",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "numbers",
+     "title": "Числа в реченнях 5",
+     "goal": "Цифри набираються тими самими пальцями, що й клавіші під ними; після числа рука повертається на домашній ряд.",
+     "focus": "1234567890",
+     "texts": [
+      "House 36, flat 9, floor 3. In 5 days I typed 2500 words.",
+      "In 5 days I typed 2500 words. House 36, flat 9, floor 3."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a08",
+   "n": 8,
+   "title": "Речення",
+   "description": "Перенесення навички в зв'язний текст: короткі речення з великими літерами та розділовими знаками.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a08-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 1",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "My fingers always return to the home row. Accuracy comes first, and speed will follow. I look at the screen, not at the keyboard.",
+      "Accuracy comes first, and speed will follow. I look at the screen, not at the keyboard. My fingers always return to the home row."
+     ]
+    },
+    {
+     "id": "en-a08-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 2",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "Today we learn one new key. A steady rhythm is better than a rush. Every key belongs to one finger.",
+      "A steady rhythm is better than a rush. Every key belongs to one finger. Today we learn one new key."
+     ]
+    },
+    {
+     "id": "en-a08-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 3",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "Twenty minutes a day builds the skill. She writes a letter to her friend in Lviv. A thick fog stood over the river this morning.",
+      "She writes a letter to her friend in Lviv. A thick fog stood over the river this morning. Twenty minutes a day builds the skill."
+     ]
+    },
+    {
+     "id": "en-a08-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 4",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "The children ran to the garden to pick apples. Our train arrives at the station on time. After the rain the air was fresh and clean.",
+      "Our train arrives at the station on time. After the rain the air was fresh and clean. The children ran to the garden to pick apples."
+     ]
+    },
+    {
+     "id": "en-a08-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 5",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "My brother plays the piano very well. The library is quiet, warm and bright. In autumn the forest turns gold and red.",
+      "The library is quiet, warm and bright. In autumn the forest turns gold and red. My brother plays the piano very well."
+     ]
+    },
+    {
+     "id": "en-a08-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 6",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "Grandma baked a pie with cherries. We talked for a long time about the trip. A good habit starts with a small step.",
+      "We talked for a long time about the trip. A good habit starts with a small step. Grandma baked a pie with cherries."
+     ]
+    },
+    {
+     "id": "en-a08-07",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 7",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "The teacher explained the rule once more. The sun was slowly rising over the town. This road leads to the old mill.",
+      "The sun was slowly rising over the town. This road leads to the old mill. The teacher explained the rule once more."
+     ]
+    },
+    {
+     "id": "en-a08-08",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "sentences",
+     "title": "Речення 8",
+     "goal": "Набирай рівно, не зупиняючись між словами. Погляд — на тексті, не на клавіатурі.",
+     "focus": "",
+     "texts": [
+      "In the morning I stretch and drink some tea. His answer was short and clear. In the evening the whole family sits at the table.",
+      "His answer was short and clear. In the evening the whole family sits at the table. In the morning I stretch and drink some tea."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a09",
+   "n": 9,
+   "title": "Абзаци",
+   "description": "Суцільний текст: один абзац — одна вправа. Мета — рівний ритм на довгій дистанції.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a09-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 1",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "Touch typing is a lot like playing the piano. First your fingers learn scales: short, simple, repeated moves. Then the moves turn into words, and later into whole sentences. Do not rush. A steady rhythm and accuracy bring speed on their own."
+     ]
+    },
+    {
+     "id": "en-a09-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 2",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "Sit up straight and place your fingers on the home row. Your index fingers feel the small bumps on two keys. After every press the finger returns to its place. Your eyes stay on the screen while your hands remember the way."
+     ]
+    },
+    {
+     "id": "en-a09-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 3",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "The town is still asleep in the early morning. The streets are quiet, and only a cleaner sweeps leaves near the bus stop. Then the bakery opens, and the air smells of fresh bread. People hurry to work, and the new day picks up its pace."
+     ]
+    },
+    {
+     "id": "en-a09-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 4",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "You do not need a special talent to learn something new. You need patience and a short lesson every day. Twenty minutes of careful work give more than two hours of hurry. A mistake is not a problem: it shows what to repeat."
+     ]
+    },
+    {
+     "id": "en-a09-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 5",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "A small river runs across the meadow behind the village. In summer children fish there and swim until evening. In autumn fog hangs over the water, and in winter the river hides under the ice. Every season paints it in its own way."
+     ]
+    },
+    {
+     "id": "en-a09-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "paragraph",
+     "title": "Абзац 6",
+     "goal": "Суцільний текст. Якщо точність падає — зменш темп, а не кількість уваги.",
+     "focus": "",
+     "texts": [
+      "A good letter starts with a greeting. Then the author explains in a few words why they are writing. One idea, one paragraph: it is easier for the reader. At the end, say thank you and sign your name. Read the text again before you send it."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "en-a10",
+   "n": 10,
+   "title": "Темпові серії",
+   "description": "Короткі серії найчастіших слів на швидкість. Єдиний модуль, де для заліку потрібен і темп, і точність: швидкість без точності не зараховується.",
+   "criterion": "Модуль завершено, коли кожну його вправу зараховано.",
+   "exercises": [
+    {
+     "id": "en-a10-01",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 1: 50 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "not now your just can is up you get come the of go that",
+      "she what my oh but like they him on in at do if we right",
+      "there my one here know him is can so it the with in oh what",
+      "so it of in about get like there go right on my one no know"
+     ]
+    },
+    {
+     "id": "en-a10-02",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 2: 100 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "she they now good has as our were his look got did out say",
+      "let going up them here too okay out hey way tell good been",
+      "here tell they him see take get come want could one if will",
+      "our would yes where him one who if an need when like some"
+     ]
+    },
+    {
+     "id": "en-a10-03",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 3: 150 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "think way had god look where when something other has stop",
+      "must then after from sure say way has something going sorry",
+      "uh her give were them anything said down by only see first",
+      "let something am work thank could wait nothing were these"
+     ]
+    },
+    {
+     "id": "en-a10-04",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 4: 200 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "way something does his nothing guys any thank could take",
+      "been guys work would house leave even our make again wait",
+      "back make after into maybe people down going place still",
+      "love every keep had away people believe around still us"
+     ]
+    },
+    {
+     "id": "en-a10-05",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 5: 300 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "around sir stop may night everything ready mean much should",
+      "many through used mother yet men hear call world baby those",
+      "wrong try done run door call remember found world best sir",
+      "long mother understand everyone nice men car brother actually"
+     ]
+    },
+    {
+     "id": "en-a10-06",
+     "stage": 3,
+     "mechanical": false,
+     "kind": "tempo",
+     "title": "Темпова серія 6: 500 найчастіших слів",
+     "goal": "Коротка серія на темп. Залік: точність не нижча за поріг і швидкість не нижча за цільову з налаштувань.",
+     "focus": "",
+     "tempo": true,
+     "texts": [
+      "set pretty months kid mine myself somebody making always",
+      "game change anyone answer used care boys mom does own gun",
+      "case use save supposed dead done understand getting car",
+      "number made son took city true body most between drink yet"
+     ]
+    }
+   ]
+  }
+ ]
+}
