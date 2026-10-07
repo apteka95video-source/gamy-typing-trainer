@@ -509,6 +509,7 @@ test('перемикання мови зберігає окремий прогр
 });
 
 test('axe-core: жодних порушень доступності на ключових екранах, у світлій і темній темах', async ({ page }) => {
+  test.setTimeout(180_000); // два повні проходи з набором тексту
   const { default: AxeBuilder } = await import('@axe-core/playwright');
   const check = async (name) => {
     const { violations } = await new AxeBuilder({ page }).analyze();
