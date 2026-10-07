@@ -1,0 +1,14 @@
+{
+  "name": "Гами — тренажер сенсорного набору",
+  "short_name": "Гами",
+  "description": "Сенсорний набір українською та англійською: гами, слова з вивчених клавіш, Академія.",
+  "lang": "uk",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6fa",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

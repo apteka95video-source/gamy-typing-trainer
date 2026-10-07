@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Гами — тренажер сенсорного набору українською та англійською</title>
+  <meta name="description" content="Гами — безкоштовний браузерний тренажер сенсорного набору українською та англійською: клавіатурні гами, слова лише з вивчених клавіш, Академія частотних комбінацій. Точність перед швидкістю, прогрес зберігається локально.">
+  <meta name="theme-color" content="#1d4ed8">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>
+    // Тема застосовується до першого малювання, щоб сторінка не блимала.
+    try {
+      var saved = JSON.parse(localStorage.getItem('gamy.profile.v1') || 'null');
+      var theme = saved && saved.settings && saved.settings.theme;
+      if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+    } catch (e) { /* сховище недоступне — лишається системна тема */ }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <div id="app">
+    <header class="site-header">
+      <div class="wrap header-row">
+        <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">Г</span><span>Гами</span></a>
+        <nav id="nav" class="nav" aria-label="Основна навігація"></nav>
+      </div>
+    </header>
+    <main id="main" class="wrap" tabindex="-1">
+      <p class="loading">Завантаження…</p>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <p>Прогрес зберігається лише у вашому браузері. Програма нічого не надсилає в мережу.</p>
+        <p><a href="#/sources">Джерела та ліцензії</a> · <a href="#/help">Метод і пальці</a></p>
+      </div>
+    </footer>
+  </div>
+  <noscript><p class="wrap">Для роботи тренажера потрібен JavaScript.</p></noscript>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
