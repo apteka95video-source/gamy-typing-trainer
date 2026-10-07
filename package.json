@@ -1,0 +1,22 @@
+{
+  "name": "gamy-typing-trainer",
+  "version": "1.0.0",
+  "description": "Гами — браузерний тренажер сенсорного набору українською та англійською (Typing Race 2026 Hackathon).",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build:data": "node scripts/build-data.mjs && node scripts/build-curriculum.mjs",
+    "verify:checksums": "node scripts/checksums.mjs",
+    "test:e2e": "playwright test",
+    "check": "npm run verify:checksums && npm test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
